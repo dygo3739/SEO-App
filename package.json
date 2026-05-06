@@ -1,0 +1,13 @@
+{
+  "name": "seo-autopilot",
+  "version": "1.0.0",
+  "description": "Automated SEO pipeline",
+  "type": "module",
+  "scripts": {
+    "start": "node src/pipeline.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {}
+}
