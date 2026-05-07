@@ -3,6 +3,41 @@
   "runs": [
     {
       "status": "error",
+      "startedAt": "2026-05-07T10:16:58.547Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-07T10:16:58.550Z"
+        },
+        {
+          "msg": "Topic: \"email marketing for small business\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-07T10:16:58.551Z"
+        },
+        {
+          "msg": "Active tier: 4 - Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-07T10:16:58.551Z"
+        },
+        {
+          "msg": "Fetching volume for 6 keyword variants...",
+          "type": "info",
+          "time": "2026-05-07T10:16:58.551Z"
+        },
+        {
+          "msg": "Fetching keyword difficulty...",
+          "type": "info",
+          "time": "2026-05-07T10:17:02.815Z"
+        }
+      ],
+      "topic": "email marketing for small business",
+      "tierId": 4,
+      "error": "DataForSEO /dataforseo_labs/google/keyword_difficulty/live HTTP 404",
+      "finishedAt": "2026-05-07T10:17:02.967Z"
+    },
+    {
+      "status": "error",
       "startedAt": "2026-05-06T23:23:48.431Z",
       "logs": [
         {
