@@ -1,0 +1,37 @@
+name: Glossary Import
+
+on:
+  # Run manually from the Actions tab whenever you want to import/re-import
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run? (true = log what would be posted, false = actually post)"
+        required: false
+        default: "false"
+
+jobs:
+  import-glossary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run glossary import
+        env:
+          WP_URL:          ${{ secrets.WP_URL }}
+          WP_USER:         ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          DRY_RUN:         ${{ github.event.inputs.dry_run }}
+        run: node src/import-glossary.js
