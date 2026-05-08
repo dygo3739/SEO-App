@@ -16,10 +16,10 @@
     },
     {
       "topic": "personal wedding vows",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
-      "lastScore": null,
-      "lastRun": null
+      "lastScore": 1000,
+      "lastRun": "2026-05-08T01:23:34.857Z"
     },
     {
       "topic": "short wedding vows",
@@ -107,6 +107,182 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-08T01:23:34.857Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-08T01:23:34.860Z"
+        },
+        {
+          "msg": "Topic: \"personal wedding vows\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-08T01:23:34.861Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-08T01:23:34.861Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-05-08T01:23:34.861Z"
+        },
+        {
+          "msg": "Candidates: \"personal wedding vows\" vol=1000, \"personal wedding vows examples\" vol=170, \"personal wedding vows ideas\" vol=20, \"personal wedding vows tips\" vol=0, \"best personal wedding vows\" vol=10, \"how to write personal wedding vows\" vol=50, \"personal wedding vows for wedding ceremony\" vol=0, \"personal wedding vows that make you cry\" vol=0",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.104Z"
+        },
+        {
+          "msg": "Selected: \"personal wedding vows\" - vol 1,000",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.121Z"
+        },
+        {
+          "msg": "Fetching sitemap from https://helpwithvows.com/post-sitemap.xml...",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.122Z"
+        },
+        {
+          "msg": "Found 31 published posts for internal linking",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.664Z"
+        },
+        {
+          "msg": "  Sample: \"Terms Of Service\" → https://helpwithvows.com/terms-of-service/",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.664Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.665Z"
+        },
+        {
+          "msg": "  \"Traditional Vs Personal Wedding Vows\" → https://helpwithvows.com/traditional-vs-personal-wedding-vows/",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.665Z"
+        },
+        {
+          "msg": "  \"Write Wedding Vows\" → https://helpwithvows.com/write-wedding-vows/",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.665Z"
+        },
+        {
+          "msg": "  \"Why Writing Your Own Wedding Vows Is Harder Than People Expect\" → https://helpwithvows.com/why-writing-your-own-wedding-vows-is-harder-than-people-expect/",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.665Z"
+        },
+        {
+          "msg": "Writing article for \"personal wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-08T01:23:39.665Z"
+        },
+        {
+          "msg": "Article ready: \"How to Write Personal Wedding Vows That Capture Your Love Story\"",
+          "type": "info",
+          "time": "2026-05-08T01:24:25.084Z"
+        },
+        {
+          "msg": "Excerpt length: 153 chars",
+          "type": "info",
+          "time": "2026-05-08T01:24:25.084Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony romantic\"",
+          "type": "info",
+          "time": "2026-05-08T01:24:25.084Z"
+        },
+        {
+          "msg": "Internal links included: 3",
+          "type": "info",
+          "time": "2026-05-08T01:24:25.084Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony romantic\"...",
+          "type": "info",
+          "time": "2026-05-08T01:24:25.084Z"
+        },
+        {
+          "msg": "Image: \"Outdoor wedding ceremony with guests seated on chairs.\" by Fotógrafo Samuel Cruz",
+          "type": "info",
+          "time": "2026-05-08T01:24:25.452Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-08T01:24:25.452Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-08T01:24:25.478Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 2596)",
+          "type": "info",
+          "time": "2026-05-08T01:24:26.429Z"
+        },
+        {
+          "msg": "Meta description (153 chars): \"Learn how to write personal wedding vows that tell your unique love story. Get expert tips, structure guidance, and inspiration to create heartfelt vows.\"",
+          "type": "info",
+          "time": "2026-05-08T01:24:27.229Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
+          "type": "info",
+          "time": "2026-05-08T01:24:27.229Z"
+        },
+        {
+          "msg": "Published: https://helpwithvows.com/how-to-write-personal-wedding-vows-that-capture-your-love-story/ (post ID: 2597, category: 8)",
+          "type": "info",
+          "time": "2026-05-08T01:24:29.603Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-08T01:24:29.603Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"personal wedding vows\"",
+          "type": "info",
+          "time": "2026-05-08T01:24:29.603Z"
+        },
+        {
+          "msg": "  Meta description: \"Learn how to write personal wedding vows that tell your unique love story. Get expert tips, structure guidance, and inspiration to create heartfelt vows.\"",
+          "type": "info",
+          "time": "2026-05-08T01:24:29.603Z"
+        },
+        {
+          "msg": "Yoast fields sent but not confirmed — enable REST API in Yoast Settings → Integrations",
+          "type": "warn",
+          "time": "2026-05-08T01:24:30.870Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-08T01:24:30.870Z"
+        }
+      ],
+      "topic": "personal wedding vows",
+      "tierId": 4,
+      "keyword": "personal wedding vows",
+      "kd": null,
+      "vol": 1000,
+      "score": 1000,
+      "internalLinks": 3,
+      "title": "How to Write Personal Wedding Vows That Capture Your Love Story",
+      "imageUrl": "https://images.unsplash.com/photo-1764380745753-e8eb6a15ef77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjByb21hbnRpY3xlbnwxfDB8fHwxNzc4MjAxNjQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Fotógrafo Samuel Cruz",
+      "postId": 2597,
+      "postUrl": "https://helpwithvows.com/how-to-write-personal-wedding-vows-that-capture-your-love-story/",
+      "mediaId": 2596,
+      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/personal-wedding-vows-hero.jpg",
+      "finishedAt": "2026-05-08T01:24:30.870Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-08T01:17:09.810Z",
