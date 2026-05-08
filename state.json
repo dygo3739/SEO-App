@@ -3,6 +3,55 @@
   "runs": [
     {
       "status": "error",
+      "startedAt": "2026-05-08T00:22:18.649Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-08T00:22:18.652Z"
+        },
+        {
+          "msg": "Topic: \"email marketing for small business\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-08T00:22:18.652Z"
+        },
+        {
+          "msg": "Active tier: 4 - Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-08T00:22:18.652Z"
+        },
+        {
+          "msg": "Fetching search volume for 6 keyword variants...",
+          "type": "info",
+          "time": "2026-05-08T00:22:18.652Z"
+        },
+        {
+          "msg": "Candidates: \"email marketing for small business\" vol=2400, \"best email marketing for small business\" vol=110, \"how to email marketing for small business\" vol=0, \"email marketing for small business guide\" vol=0, \"email marketing for small business tips\" vol=0, \"email marketing for small business for beginners\" vol=0",
+          "type": "info",
+          "time": "2026-05-08T00:22:21.473Z"
+        },
+        {
+          "msg": "Selected: \"email marketing for small business\" - vol 2,400",
+          "type": "info",
+          "time": "2026-05-08T00:22:21.494Z"
+        },
+        {
+          "msg": "Writing article for \"email marketing for small business\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-08T00:22:21.494Z"
+        }
+      ],
+      "topic": "email marketing for small business",
+      "tierId": 4,
+      "keyword": "email marketing for small business",
+      "kd": null,
+      "vol": 2400,
+      "score": 2400,
+      "error": "Anthropic API HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cap9VL77MZ87cxmUn9Mam\"}",
+      "finishedAt": "2026-05-08T00:22:21.720Z"
+    },
+    {
+      "status": "error",
       "startedAt": "2026-05-08T00:15:29.830Z",
       "logs": [
         {
