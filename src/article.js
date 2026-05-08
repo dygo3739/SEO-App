@@ -1,19 +1,24 @@
 import { BUSINESS } from "../config/topics.js";
 
-export async function generateArticle(keyword, kd, vol, relatedPosts, log) {
+export async function generateArticle(keyword, kd, vol, relatedPosts, relatedTerms, log) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) throw new Error("Missing ANTHROPIC_API_KEY env var");
 
   const competitionLevel = kd == null ? "unknown" : kd < 30 ? "low" : kd < 60 ? "medium" : "high";
   log(`Writing article for "${keyword}" (competition: ${competitionLevel})...`);
 
-  // Build internal links block for Claude
-  const internalLinksBlock = relatedPosts.length > 0
-    ? `You MUST naturally include the following internal links within the article body where contextually relevant. Use the exact URLs provided. Link the most natural anchor text — do not use "click here":
-${relatedPosts.map(p => `- "${p.title}" → ${p.url}`).join("\n")}
+  // Build internal links block for blog posts
+  const postLinksBlock = relatedPosts.length > 0
+    ? `INTERNAL LINKS — Blog Posts (link naturally within body copy):
+${relatedPosts.map(p => `  - "${p.title}" → ${p.url}`).join("\n")}`
+    : `No related blog posts available for internal linking.`;
 
-Weave these links in naturally within paragraphs using relevant anchor text. Do not list them at the end.`
-    : `No internal links available yet — skip internal linking.`;
+  // Build glossary links block — treated differently (definitions, link on first mention)
+  const termLinksBlock = relatedTerms.length > 0
+    ? `INTERNAL LINKS — Glossary Terms (link the first time each term appears in the article):
+${relatedTerms.map(t => `  - "${t.title}" → ${t.url}`).join("\n")}
+These are glossary definition pages. Link the term word naturally as anchor text the first time it appears. Do not force them in — only link if the term genuinely appears in the content.`
+    : `No glossary terms available for internal linking.`;
 
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -35,7 +40,7 @@ You write blog posts that genuinely help couples feel confident and inspired abo
 Return ONLY valid JSON (no markdown fences, no preamble) with exactly these fields:
 - title: string - compelling H1 headline for the article
 - seo_title: string - SEO title tag, max 60 chars, keyword near the start
-- content: string - Full HTML article body using <h2>,<h3>,<p>,<ul>,<li>,<strong>,<a href="..."> tags. Min 800 words. Include keyword naturally 4-6 times. Add a FAQ section at the end. Include one gentle mention of ${BUSINESS.name}. Internal links must be real <a href="URL">anchor text</a> tags inside the body copy.
+- content: string - Full HTML article body using <h2>,<h3>,<p>,<ul>,<li>,<strong>,<a href="..."> tags. Min 800 words. Include keyword naturally 4-6 times. Add a FAQ section at the end. Include one gentle mention of ${BUSINESS.name}. Weave all provided internal links naturally into the body copy as real <a href="URL">anchor text</a> tags.
 - excerpt: string - Meta description MUST be between 120 and 155 characters. MUST include the target keyword. Written to maximise click-through rate. Count the characters carefully.
 - pinterest_description: string - Warm, romantic Pinterest caption max 500 chars with a call to action
 - unsplash_query: string - 2 to 4 words for a beautiful wedding hero image on Unsplash (e.g. "wedding ceremony romantic", "bride groom vows", "wedding rings flowers")`,
@@ -48,7 +53,15 @@ Competition: ${competitionLevel}
 Target keyword for meta description: "${keyword}"
 Meta description must be 120-155 characters and must contain "${keyword}".
 
-${internalLinksBlock}
+${postLinksBlock}
+
+${termLinksBlock}
+
+Linking rules:
+- Blog post links: weave into relevant sentences naturally, use descriptive anchor text
+- Glossary term links: link the term word itself on its first mention only (e.g. <a href="URL">officiant</a>)
+- Never list links at the bottom — all links must appear naturally within the body copy
+- Do not force a link if it doesn't fit naturally
 
 Remember: the reader is an engaged couple who may feel nervous or overwhelmed about writing their vows. Be encouraging, warm, and practical.`,
       }],
@@ -75,6 +88,6 @@ Remember: the reader is an engaged couple who may feel nervous or overwhelmed ab
   log(`Article ready: "${article.title}"`);
   log(`Excerpt length: ${article.excerpt?.length ?? 0} chars`);
   log(`Unsplash query: "${article.unsplash_query}"`);
-  log(`Internal links included: ${relatedPosts.length}`);
+  log(`Post links: ${relatedPosts.length} | Term links: ${relatedTerms.length}`);
   return article;
 }
