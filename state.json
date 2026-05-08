@@ -1,6 +1,232 @@
 {
-  "topics": [],
+  "topics": [
+    {
+      "topic": "how to write wedding vows",
+      "uses": 1,
+      "lastKd": null,
+      "lastScore": 5400,
+      "lastRun": "2026-05-08T00:53:01.442Z"
+    },
+    {
+      "topic": "wedding vow examples",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "personal wedding vows",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "short wedding vows",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "funny wedding vows",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "traditional wedding vows",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "non religious wedding vows",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "wedding vows for him",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "wedding vows for her",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how long should wedding vows be",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "wedding vow renewal ideas",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "unique wedding vows",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "simple wedding vows",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "emotional wedding vows",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "writing your own wedding vows tips",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    }
+  ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-08T00:53:01.442Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-08T00:53:01.445Z"
+        },
+        {
+          "msg": "Topic: \"how to write wedding vows\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-08T00:53:01.445Z"
+        },
+        {
+          "msg": "Active tier: 4 - Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-08T00:53:01.446Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-05-08T00:53:01.446Z"
+        },
+        {
+          "msg": "Candidates: \"how to write wedding vows\" vol=5400, \"how to write wedding vows examples\" vol=50, \"how to write wedding vows ideas\" vol=0, \"how to write wedding vows tips\" vol=0, \"best how to write wedding vows\" vol=0, \"how to write how to write wedding vows\" vol=0, \"how to write wedding vows for wedding ceremony\" vol=0, \"how to write wedding vows that make you cry\" vol=0",
+          "type": "info",
+          "time": "2026-05-08T00:53:05.120Z"
+        },
+        {
+          "msg": "Selected: \"how to write wedding vows\" - vol 5,400",
+          "type": "info",
+          "time": "2026-05-08T00:53:05.140Z"
+        },
+        {
+          "msg": "Writing article for \"how to write wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-08T00:53:05.141Z"
+        },
+        {
+          "msg": "Article ready: \"How to Write Wedding Vows That Come From the Heart: A Step-by-Step Guide\"",
+          "type": "info",
+          "time": "2026-05-08T00:53:59.792Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony romantic\"",
+          "type": "info",
+          "time": "2026-05-08T00:53:59.792Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony romantic\"...",
+          "type": "info",
+          "time": "2026-05-08T00:53:59.793Z"
+        },
+        {
+          "msg": "Image: \"Outdoor wedding ceremony with guests seated on chairs.\" by Fotógrafo Samuel Cruz",
+          "type": "info",
+          "time": "2026-05-08T00:54:00.600Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-08T00:54:00.600Z"
+        },
+        {
+          "msg": "Uploading image to WordPress...",
+          "type": "info",
+          "time": "2026-05-08T00:54:00.746Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 2588)",
+          "type": "info",
+          "time": "2026-05-08T00:54:01.576Z"
+        },
+        {
+          "msg": "Publishing post to WordPress...",
+          "type": "info",
+          "time": "2026-05-08T00:54:01.930Z"
+        },
+        {
+          "msg": "Published: https://helpwithvows.com/how-to-write-wedding-vows-that-come-from-the-heart-a-step-by-step-guide/",
+          "type": "info",
+          "time": "2026-05-08T00:54:04.738Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-08T00:54:04.738Z"
+        },
+        {
+          "msg": "Yoast fields written OK",
+          "type": "info",
+          "time": "2026-05-08T00:54:05.879Z"
+        },
+        {
+          "msg": "Pinterest skipped - PINTEREST_TOKEN or PINTEREST_BOARD_ID not configured",
+          "type": "warn",
+          "time": "2026-05-08T00:54:05.879Z"
+        },
+        {
+          "msg": "  Add both to GitHub Secrets once your Pinterest app is approved",
+          "type": "warn",
+          "time": "2026-05-08T00:54:05.879Z"
+        }
+      ],
+      "topic": "how to write wedding vows",
+      "tierId": 4,
+      "keyword": "how to write wedding vows",
+      "kd": null,
+      "vol": 5400,
+      "score": 5400,
+      "title": "How to Write Wedding Vows That Come From the Heart: A Step-by-Step Guide",
+      "imageUrl": "https://images.unsplash.com/photo-1764380745753-e8eb6a15ef77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjByb21hbnRpY3xlbnwxfDB8fHwxNzc4MjAxNjQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Fotógrafo Samuel Cruz",
+      "postId": 2589,
+      "postUrl": "https://helpwithvows.com/how-to-write-wedding-vows-that-come-from-the-heart-a-step-by-step-guide/",
+      "mediaId": 2588,
+      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/how-to-write-wedding-vows-hero.jpg",
+      "finishedAt": "2026-05-08T00:54:05.879Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-05-08T00:22:18.649Z",
