@@ -2,8 +2,16 @@ name: SEO Autopilot
 
 on:
   schedule:
-    # Runs daily at 8am UTC. Edit at https://crontab.guru
-    - cron: "0 8 * * *"
+    # ─────────────────────────────────────────────────────────────
+    #  POSTING FREQUENCY — uncomment ONE line, comment out the rest
+    #  Use https://crontab.guru to build a custom schedule
+    # ─────────────────────────────────────────────────────────────
+
+    # - cron: "0 8 * * *"       # Daily at 8am UTC
+    - cron: "0 8 * * 1"         # Weekly — every Monday at 8am UTC
+    # - cron: "0 8 * * 1,4"     # Twice a week — Monday + Thursday
+    # - cron: "0 8 1,15 * *"    # Twice a month — 1st and 15th
+    # - cron: "0 8 1 * *"       # Monthly — 1st of each month
 
   workflow_dispatch:
     inputs:
@@ -27,23 +35,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          # No cache: because this project has zero npm dependencies
 
       - name: Install dependencies
         run: npm install
 
       - name: Run pipeline
         env:
-          WP_URL:             ${{ secrets.WP_URL }}
-          WP_USER:            ${{ secrets.WP_USER }}
-          WP_APP_PASSWORD:    ${{ secrets.WP_APP_PASSWORD }}
-          DATAFORSEO_USER:    ${{ secrets.DATAFORSEO_USER }}
-          DATAFORSEO_PASS:    ${{ secrets.DATAFORSEO_PASS }}
-          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          WP_URL:              ${{ secrets.WP_URL }}
+          WP_USER:             ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD:     ${{ secrets.WP_APP_PASSWORD }}
+          DATAFORSEO_USER:     ${{ secrets.DATAFORSEO_USER }}
+          DATAFORSEO_PASS:     ${{ secrets.DATAFORSEO_PASS }}
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          PINTEREST_TOKEN:    ${{ secrets.PINTEREST_TOKEN }}
-          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
-          TOPIC_OVERRIDE:     ${{ github.event.inputs.topic_override }}
+          PINTEREST_TOKEN:     ${{ secrets.PINTEREST_TOKEN }}
+          PINTEREST_BOARD_ID:  ${{ secrets.PINTEREST_BOARD_ID }}
+          TOPIC_OVERRIDE:      ${{ github.event.inputs.topic_override }}
         run: node src/pipeline.js
 
       - name: Commit state.json
