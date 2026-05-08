@@ -1,6 +1,4 @@
 // src/sitemap.js
-// Fetches the live post sitemap and returns a list of published posts.
-// Used to give Claude real internal links to weave into each article.
 
 const SITEMAP_URL = "https://helpwithvows.com/post-sitemap.xml";
 
@@ -18,18 +16,16 @@ export async function fetchPublishedPosts(log) {
 
     const xml = await res.text();
 
-    // Parse <url> entries — each has <loc> and optionally <news:title> or <image:title>
     const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1].trim());
-
-    // Try to extract titles from the XML (Yoast sitemap includes these)
     const titleMatches = [...xml.matchAll(/<news:title>(.*?)<\/news:title>/g)];
     const imageTitleMatches = [...xml.matchAll(/<image:title>(.*?)<\/image:title>/g)];
 
     const posts = urls
-      .filter(url => url.includes("helpwithvows.com") && !url.endsWith("/post-sitemap.xml"))
+      .filter(url => url.includes("helpwithvows.com") && !url.endsWith("sitemap.xml"))
       .map((url, i) => {
-        // Try to get a title from XML, fall back to deriving from the URL slug
-        const xmlTitle = titleMatches[i]?.1 || imageTitleMatches[i]?.1;
+        const xmlTitle = (titleMatches[i] && titleMatches[i][1])
+          || (imageTitleMatches[i] && imageTitleMatches[i][1]);
+
         const slugTitle = url
           .replace(/https?:\/\/[^/]+\//, "")
           .replace(/\/$/, "")
@@ -55,7 +51,6 @@ export async function fetchPublishedPosts(log) {
   }
 }
 
-// Pick the most relevant posts for a given keyword (simple word overlap scoring)
 export function selectRelevantPosts(posts, keyword, maxLinks = 3) {
   if (!posts.length) return [];
 
@@ -67,11 +62,8 @@ export function selectRelevantPosts(posts, keyword, maxLinks = 3) {
     return { ...post, score: overlap };
   });
 
-  // Return top matches, excluding any with zero overlap if there are better options
   const sorted = scored.sort((a, b) => b.score - a.score);
   const withOverlap = sorted.filter(p => p.score > 0);
-
-  // If we have enough with real overlap use those, otherwise fall back to top posts
   const candidates = withOverlap.length >= maxLinks ? withOverlap : sorted;
   return candidates.slice(0, maxLinks);
 }
