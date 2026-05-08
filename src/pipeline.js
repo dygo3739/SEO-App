@@ -4,7 +4,7 @@ import { TOPICS } from "../config/topics.js";
 import { loadState, saveState, syncTopics, pickTopic, recordRun } from "./state.js";
 import { getActiveTier } from "./tiers.js";
 import { researchKeywords } from "./keywords.js";
-import { fetchPublishedPosts, selectRelevantPosts } from "./sitemap.js";
+import { fetchPublishedPosts, fetchGlossaryTerms, selectRelevantPosts, selectRelevantTerms } from "./sitemap.js";
 import { generateArticle } from "./article.js";
 import { fetchHeroImage } from "./unsplash.js";
 import { publishPost } from "./wordpress.js";
@@ -51,19 +51,25 @@ async function main() {
     const kwResult = await researchKeywords(topic, tier, log);
     runRecord = { ...runRecord, keyword: kwResult.keyword, kd: kwResult.kd, vol: kwResult.vol, score: kwResult.score };
 
-    // 5. Fetch published posts from sitemap for internal linking
-    const allPosts = await fetchPublishedPosts(log);
-    const relatedPosts = selectRelevantPosts(allPosts, kwResult.keyword, 3);
-    if (relatedPosts.length > 0) {
-      log(`Internal links selected:`);
-      relatedPosts.forEach(p => log(`  "${p.title}" → ${p.url}`));
-    } else {
-      log(`No relevant internal links found — article will publish without them`);
-    }
-    runRecord.internalLinks = relatedPosts.length;
+    // 5. Fetch posts + glossary terms for internal linking (run in parallel)
+    log(`Fetching internal link sources...`);
+    const [allPosts, allTerms] = await Promise.all([
+      fetchPublishedPosts(log),
+      fetchGlossaryTerms(log),
+    ]);
+
+    const relatedPosts  = selectRelevantPosts(allPosts, kwResult.keyword, 3);
+    const relatedTerms  = selectRelevantTerms(allTerms, kwResult.keyword, 3);
+
+    log(`Internal links selected:`);
+    log(`  Posts (${relatedPosts.length}): ${relatedPosts.map(p => `"${p.title}"`).join(", ") || "none"}`);
+    log(`  Terms (${relatedTerms.length}): ${relatedTerms.map(t => `"${t.title}"`).join(", ") || "none"}`);
+
+    runRecord.internalPostLinks = relatedPosts.length;
+    runRecord.internalTermLinks = relatedTerms.length;
 
     // 6. Generate article
-    const article = await generateArticle(kwResult.keyword, kwResult.kd, kwResult.vol, relatedPosts, log);
+    const article = await generateArticle(kwResult.keyword, kwResult.kd, kwResult.vol, relatedPosts, relatedTerms, log);
     runRecord.title = article.title;
 
     // 7. Fetch hero image from Unsplash
@@ -76,7 +82,7 @@ async function main() {
     runRecord = { ...runRecord, postId, postUrl, mediaId, mediaUrl };
 
     // 9. Pinterest — optional, non-fatal
-    const pinterestToken = process.env.PINTEREST_TOKEN?.trim();
+    const pinterestToken   = process.env.PINTEREST_TOKEN?.trim();
     const pinterestBoardId = process.env.PINTEREST_BOARD_ID?.trim();
 
     if (!pinterestToken || !pinterestBoardId) {
@@ -99,12 +105,13 @@ async function main() {
     saveState(state);
 
     log("\nPipeline complete!", "success");
-    log(`   Keyword        : ${kwResult.keyword}`);
-    log(`   Article        : ${article.title}`);
-    log(`   Internal links : ${relatedPosts.length}`);
-    log(`   Image          : ${image.url} (by ${image.credit.name})`);
-    log(`   Post           : ${postUrl}`);
-    log(`   Pin            : ${runRecord.pinId ?? "skipped"}`);
+    log(`   Keyword      : ${kwResult.keyword}`);
+    log(`   Article      : ${article.title}`);
+    log(`   Post links   : ${relatedPosts.length}`);
+    log(`   Term links   : ${relatedTerms.length}`);
+    log(`   Image        : ${image.url} (by ${image.credit.name})`);
+    log(`   Post         : ${postUrl}`);
+    log(`   Pin          : ${runRecord.pinId ?? "skipped"}`);
 
   } catch (err) {
     console.error(`\nPipeline failed: ${err.message}`);
