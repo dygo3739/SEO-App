@@ -1,71 +1,78 @@
 // src/sitemap.js
 
-const SITEMAP_URL = "https://helpwithvows.com/post-sitemap.xml";
+const POST_SITEMAP_URL  = "https://helpwithvows.com/post-sitemap.xml";
+const TERMS_SITEMAP_URL = "https://helpwithvows.com/terms-sitemap.xml";
 
-export async function fetchPublishedPosts(log) {
+// ── Shared XML parser ─────────────────────────────────────────────
+async function fetchSitemap(url, log) {
   try {
-    log(`Fetching sitemap from ${SITEMAP_URL}...`);
-    const res = await fetch(SITEMAP_URL, {
-      headers: { "User-Agent": "HelpWithVows-SEO-Bot/1.0" },
-    });
-
+    const res = await fetch(url, { headers: { "User-Agent": "HelpWithVows-SEO-Bot/1.0" } });
     if (!res.ok) {
-      log(`Sitemap fetch failed (HTTP ${res.status}) — skipping internal links`, "warn");
+      log(`Sitemap fetch failed for ${url} (HTTP ${res.status})`, "warn");
       return [];
     }
-
     const xml = await res.text();
-
     const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1].trim());
-    const titleMatches = [...xml.matchAll(/<news:title>(.*?)<\/news:title>/g)];
+    const titleMatches      = [...xml.matchAll(/<news:title>(.*?)<\/news:title>/g)];
     const imageTitleMatches = [...xml.matchAll(/<image:title>(.*?)<\/image:title>/g)];
 
-    const posts = urls
-      .filter(url => url.includes("helpwithvows.com") && !url.endsWith("sitemap.xml"))
+    return urls
+      .filter(url => url.includes("helpwithvows.com") && !url.endsWith(".xml"))
       .map((url, i) => {
         const xmlTitle = (titleMatches[i] && titleMatches[i][1])
           || (imageTitleMatches[i] && imageTitleMatches[i][1]);
-
         const slugTitle = url
           .replace(/https?:\/\/[^/]+\//, "")
           .replace(/\/$/, "")
           .replace(/-/g, " ")
           .replace(/\b\w/g, c => c.toUpperCase());
-
-        return {
-          url,
-          title: xmlTitle ? decodeHtmlEntities(xmlTitle) : slugTitle,
-        };
+        return { url, title: xmlTitle ? decodeHtmlEntities(xmlTitle) : slugTitle };
       });
-
-    log(`Found ${posts.length} published posts for internal linking`);
-    if (posts.length > 0) {
-      log(`  Sample: "${posts[0].title}" → ${posts[0].url}`);
-    }
-
-    return posts;
-
   } catch (err) {
-    log(`Sitemap error (${err.message}) — skipping internal links`, "warn");
+    log(`Sitemap error for ${url} (${err.message}) — skipping`, "warn");
     return [];
   }
 }
 
+// ── Public API ────────────────────────────────────────────────────
+export async function fetchPublishedPosts(log) {
+  log(`Fetching post sitemap...`);
+  const posts = await fetchSitemap(POST_SITEMAP_URL, log);
+  log(`Found ${posts.length} published posts`);
+  return posts;
+}
+
+export async function fetchGlossaryTerms(log) {
+  log(`Fetching glossary terms sitemap...`);
+  const terms = await fetchSitemap(TERMS_SITEMAP_URL, log);
+  log(`Found ${terms.length} glossary terms`);
+  return terms;
+}
+
+// Score by keyword word overlap — higher = more relevant
+function scoreItems(items, keyword) {
+  const kwWords = new Set(keyword.toLowerCase().split(/\s+/).filter(w => w.length > 3));
+  return items
+    .map(item => {
+      const titleWords = item.title.toLowerCase().split(/\s+/);
+      const overlap = titleWords.filter(w => kwWords.has(w)).length;
+      return { ...item, score: overlap };
+    })
+    .sort((a, b) => b.score - a.score);
+}
+
 export function selectRelevantPosts(posts, keyword, maxLinks = 3) {
   if (!posts.length) return [];
+  const scored = scoreItems(posts, keyword);
+  const withOverlap = scored.filter(p => p.score > 0);
+  return (withOverlap.length >= maxLinks ? withOverlap : scored).slice(0, maxLinks);
+}
 
-  const kwWords = new Set(keyword.toLowerCase().split(/\s+/).filter(w => w.length > 3));
-
-  const scored = posts.map(post => {
-    const titleWords = post.title.toLowerCase().split(/\s+/);
-    const overlap = titleWords.filter(w => kwWords.has(w)).length;
-    return { ...post, score: overlap };
-  });
-
-  const sorted = scored.sort((a, b) => b.score - a.score);
-  const withOverlap = sorted.filter(p => p.score > 0);
-  const candidates = withOverlap.length >= maxLinks ? withOverlap : sorted;
-  return candidates.slice(0, maxLinks);
+export function selectRelevantTerms(terms, keyword, maxLinks = 3) {
+  if (!terms.length) return [];
+  const scored = scoreItems(terms, keyword);
+  const withOverlap = scored.filter(t => t.score > 0);
+  return (withOverlap.length >= maxLinks ? withOverlap : scored).slice(0, maxLinks);
 }
 
 function decodeHtmlEntities(str) {
