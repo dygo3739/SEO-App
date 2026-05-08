@@ -3,7 +3,7 @@
 //  Edit this file to customise the pipeline for each project.
 // ─────────────────────────────────────────────────────────────────
 
-// Business context — used to guide keyword variants and article tone
+// Business context — used to guide keyword research and article tone
 export const BUSINESS = {
   name: "HelpWithVows",
   type: "boutique wedding vow writing service",
@@ -13,11 +13,21 @@ export const BUSINESS = {
   niche: "personalized wedding vow writing, vow coaching, and ceremony wording",
 };
 
+// ── Publishing settings ───────────────────────────────────────────
+export const PUBLISHING = {
+  // WordPress category ID for "Blog".
+  // To find yours: WordPress Admin → Posts → Categories → hover the category → check the ID in the URL
+  // e.g. .../term.php?taxonomy=category&tag_ID=3  →  categoryId: 3
+  categoryId: 8,
+
+  // Post status: "publish" (live immediately) or "draft" (save as draft for review)
+  postStatus: "publish",
+};
+
 // Site start date — controls which difficulty tier is active
 export const SITE_START_DATE = "2025-01-01";
 
 // Topic queue — picked in round-robin order (least-used first)
-// Keep topics broad — the pipeline finds the best keyword variant automatically
 export const TOPICS = [
   "how to write wedding vows",
   "wedding vow examples",
