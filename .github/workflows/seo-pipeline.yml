@@ -7,8 +7,8 @@ on:
     #  Use https://crontab.guru to build a custom schedule
     # ─────────────────────────────────────────────────────────────
 
-    # - cron: "0 8 * * *"       # Daily at 8am UTC
-    - cron: "0 8 * * 1"         # Weekly — every Monday at 8am UTC
+    - cron: "0 8 * * *"       # Daily at 8am UTC
+    # - cron: "0 8 * * 1"         # Weekly — every Monday at 8am UTC
     # - cron: "0 8 * * 1,4"     # Twice a week — Monday + Thursday
     # - cron: "0 8 1,15 * *"    # Twice a month — 1st and 15th
     # - cron: "0 8 1 * *"       # Monthly — 1st of each month
