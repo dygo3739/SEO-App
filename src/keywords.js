@@ -1,4 +1,5 @@
 import { selectBestKeyword } from "./tiers.js";
+import { BUSINESS } from "../config/topics.js";
 
 const BASE = "https://api.dataforseo.com/v3";
 
@@ -21,24 +22,30 @@ async function post(endpoint, body) {
   return data;
 }
 
-export async function researchKeywords(topic, tier, log) {
-  const variants = [
+// Generate keyword variants tailored to the business niche and audience
+function buildVariants(topic) {
+  return [
     topic,
-    `best ${topic}`,
-    `how to ${topic}`,
-    `${topic} guide`,
+    `${topic} examples`,
+    `${topic} ideas`,
     `${topic} tips`,
-    `${topic} for beginners`,
-  ];
+    `best ${topic}`,
+    `how to write ${topic}`,
+    `${topic} for wedding ceremony`,
+    `${topic} that make you cry`,
+  ].slice(0, 8);
+}
+
+export async function researchKeywords(topic, tier, log) {
+  const variants = buildVariants(topic);
 
   try {
-    log(`Fetching search volume for ${variants.length} keyword variants...`);
+    log(`Fetching search volume for ${variants.length} variants (niche: ${BUSINESS.niche})...`);
     const volData = await post("/keywords_data/google_ads/search_volume/live", [
       { keywords: variants, location_code: 2840, language_code: "en" },
     ]);
     const volResults = volData.tasks?.[0]?.result || [];
 
-    // KD not available on all plans — default to 50 (mid-range) so scoring still works
     const candidates = volResults.map(r => ({
       keyword: r.keyword,
       vol: r.search_volume || 0,
@@ -47,7 +54,6 @@ export async function researchKeywords(topic, tier, log) {
 
     log(`Candidates: ${candidates.map(c => `"${c.keyword}" vol=${c.vol}`).join(", ")}`);
 
-    // Sort by volume descending — pick highest volume that passes tier's volMin
     const passing = candidates
       .filter(c => c.vol >= tier.volMin)
       .sort((a, b) => b.vol - a.vol);
@@ -63,7 +69,6 @@ export async function researchKeywords(topic, tier, log) {
 
   } catch (err) {
     log(`DataForSEO skipped (${err.message}) - using topic as keyword`, "warn");
-    log(`  Check DATAFORSEO_USER / DATAFORSEO_PASS in GitHub Secrets`, "warn");
     return { keyword: topic, kd: null, vol: null, score: null };
   }
 }
