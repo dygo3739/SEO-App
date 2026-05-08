@@ -31,34 +31,39 @@ export async function researchKeywords(topic, tier, log) {
     `${topic} for beginners`,
   ];
 
-  log(`Fetching volume for ${variants.length} keyword variants...`);
-  const volData = await post("/keywords_data/google_ads/search_volume/live", [
-    { keywords: variants, location_code: 2840, language_code: "en" },
-  ]);
-  const volResults = volData.tasks?.[0]?.result || [];
+  try {
+    log(`Fetching search volume for ${variants.length} keyword variants...`);
+    const volData = await post("/keywords_data/google_ads/search_volume/live", [
+      { keywords: variants, location_code: 2840, language_code: "en" },
+    ]);
+    const volResults = volData.tasks?.[0]?.result || [];
 
-  log(`Fetching keyword difficulty...`);
-  const kdData = await post("/dataforseo_labs/google/keyword_difficulty/live", [
-    { keywords: variants, location_code: 2840, language_code: "en" },
-  ]);
-  const kdResults = kdData.tasks?.[0]?.result || [];
-  const kdMap = Object.fromEntries(kdResults.map(r => [r.keyword, r.keyword_difficulty ?? 50]));
+    // KD not available on all plans — default to 50 (mid-range) so scoring still works
+    const candidates = volResults.map(r => ({
+      keyword: r.keyword,
+      vol: r.search_volume || 0,
+      kd: 50,
+    }));
 
-  const candidates = volResults.map(r => ({
-    keyword: r.keyword,
-    vol: r.search_volume || 0,
-    kd: kdMap[r.keyword] ?? 50,
-  }));
+    log(`Candidates: ${candidates.map(c => `"${c.keyword}" vol=${c.vol}`).join(", ")}`);
 
-  log(`Candidates: ${candidates.map(c => `"${c.keyword}" vol=${c.vol} KD=${c.kd}`).join(", ")}`);
+    // Sort by volume descending — pick highest volume that passes tier's volMin
+    const passing = candidates
+      .filter(c => c.vol >= tier.volMin)
+      .sort((a, b) => b.vol - a.vol);
 
-  const best = selectBestKeyword(candidates, tier);
+    if (!passing.length) {
+      log(`No candidates met vol>=${tier.volMin} for Tier ${tier.id} - using topic directly`, "warn");
+      return { keyword: topic, kd: null, vol: null, score: null };
+    }
 
-  if (!best) {
-    log(`No candidates passed Tier ${tier.id} filter (KD<=${tier.kdMax}, vol>=${tier.volMin}) - using topic directly`, "warn");
+    const best = passing[0];
+    log(`Selected: "${best.keyword}" - vol ${best.vol.toLocaleString()}`);
+    return { keyword: best.keyword, kd: null, vol: best.vol, score: best.vol };
+
+  } catch (err) {
+    log(`DataForSEO skipped (${err.message}) - using topic as keyword`, "warn");
+    log(`  Check DATAFORSEO_USER / DATAFORSEO_PASS in GitHub Secrets`, "warn");
     return { keyword: topic, kd: null, vol: null, score: null };
   }
-
-  log(`Selected: "${best.keyword}" - vol ${best.vol.toLocaleString()}, KD ${best.kd}, score ${best.score.toLocaleString()}`);
-  return best;
 }
