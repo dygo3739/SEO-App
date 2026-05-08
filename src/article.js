@@ -1,11 +1,19 @@
 import { BUSINESS } from "../config/topics.js";
 
-export async function generateArticle(keyword, kd, vol, log) {
+export async function generateArticle(keyword, kd, vol, relatedPosts, log) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) throw new Error("Missing ANTHROPIC_API_KEY env var");
 
   const competitionLevel = kd == null ? "unknown" : kd < 30 ? "low" : kd < 60 ? "medium" : "high";
   log(`Writing article for "${keyword}" (competition: ${competitionLevel})...`);
+
+  // Build internal links block for Claude
+  const internalLinksBlock = relatedPosts.length > 0
+    ? `You MUST naturally include the following internal links within the article body where contextually relevant. Use the exact URLs provided. Link the most natural anchor text — do not use "click here":
+${relatedPosts.map(p => `- "${p.title}" → ${p.url}`).join("\n")}
+
+Weave these links in naturally within paragraphs using relevant anchor text. Do not list them at the end.`
+    : `No internal links available yet — skip internal linking.`;
 
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -17,7 +25,7 @@ export async function generateArticle(keyword, kd, vol, log) {
     body: JSON.stringify({
       model: "claude-sonnet-4-20250514",
       max_tokens: 4000,
-      system: `You are a expert content writer for ${BUSINESS.name}, a ${BUSINESS.type}.
+      system: `You are an expert content writer for ${BUSINESS.name}, a ${BUSINESS.type}.
 Your audience is ${BUSINESS.audience}.
 Your writing tone is ${BUSINESS.tone}.
 Your niche is ${BUSINESS.niche}.
@@ -27,8 +35,8 @@ You write blog posts that genuinely help couples feel confident and inspired abo
 Return ONLY valid JSON (no markdown fences, no preamble) with exactly these fields:
 - title: string - compelling H1 headline for the article
 - seo_title: string - SEO title tag, max 60 chars, keyword near the start
-- content: string - Full HTML article body using <h2>,<h3>,<p>,<ul>,<li>,<strong> tags. Min 800 words. Include keyword naturally 4-6 times. Add a FAQ section at the end. Include one gentle mention of ${BUSINESS.name} as a resource for couples who want professional help.
-- excerpt: string - Meta description max 160 chars, include keyword, written to maximise click-through
+- content: string - Full HTML article body using <h2>,<h3>,<p>,<ul>,<li>,<strong>,<a href="..."> tags. Min 800 words. Include keyword naturally 4-6 times. Add a FAQ section at the end. Include one gentle mention of ${BUSINESS.name}. Internal links must be real <a href="URL">anchor text</a> tags inside the body copy.
+- excerpt: string - Meta description MUST be between 120 and 155 characters. MUST include the target keyword. Written to maximise click-through rate. Count the characters carefully.
 - pinterest_description: string - Warm, romantic Pinterest caption max 500 chars with a call to action
 - unsplash_query: string - 2 to 4 words for a beautiful wedding hero image on Unsplash (e.g. "wedding ceremony romantic", "bride groom vows", "wedding rings flowers")`,
       messages: [{
@@ -37,7 +45,12 @@ Return ONLY valid JSON (no markdown fences, no preamble) with exactly these fiel
 Search volume: ${vol?.toLocaleString() ?? "unknown"}/month
 Competition: ${competitionLevel}
 
-Remember: the reader is an engaged couple who may feel nervous or overwhelmed about writing their vows. Be encouraging, warm, and practical. Make them feel like they can do this.`,
+Target keyword for meta description: "${keyword}"
+Meta description must be 120-155 characters and must contain "${keyword}".
+
+${internalLinksBlock}
+
+Remember: the reader is an engaged couple who may feel nervous or overwhelmed about writing their vows. Be encouraging, warm, and practical.`,
       }],
     }),
   });
@@ -60,6 +73,8 @@ Remember: the reader is an engaged couple who may feel nervous or overwhelmed ab
   if (!article.title || !article.content) throw new Error("Claude response missing title or content");
 
   log(`Article ready: "${article.title}"`);
+  log(`Excerpt length: ${article.excerpt?.length ?? 0} chars`);
   log(`Unsplash query: "${article.unsplash_query}"`);
+  log(`Internal links included: ${relatedPosts.length}`);
   return article;
 }
