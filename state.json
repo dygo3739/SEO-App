@@ -37,10 +37,10 @@
     },
     {
       "topic": "traditional wedding vows",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
-      "lastScore": null,
-      "lastRun": null
+      "lastScore": 18100,
+      "lastRun": "2026-05-09T09:24:07.879Z"
     },
     {
       "topic": "non religious wedding vows",
@@ -107,6 +107,188 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-09T09:24:07.879Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-09T09:24:07.883Z"
+        },
+        {
+          "msg": "Topic: \"traditional wedding vows\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-09T09:24:07.885Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-09T09:24:07.885Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-05-09T09:24:07.885Z"
+        },
+        {
+          "msg": "Candidates: \"traditional wedding vows\" vol=18100, \"traditional wedding vows examples\" vol=260, \"traditional wedding vows ideas\" vol=0, \"traditional wedding vows tips\" vol=0, \"best traditional wedding vows\" vol=0, \"how to write traditional wedding vows\" vol=0, \"traditional wedding vows for wedding ceremony\" vol=0, \"traditional wedding vows that make you cry\" vol=0",
+          "type": "info",
+          "time": "2026-05-09T09:24:12.015Z"
+        },
+        {
+          "msg": "Selected: \"traditional wedding vows\" - vol 18,100",
+          "type": "info",
+          "time": "2026-05-09T09:24:12.073Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-09T09:24:12.073Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-09T09:24:12.073Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-09T09:24:12.075Z"
+        },
+        {
+          "msg": "Found 34 published posts",
+          "type": "info",
+          "time": "2026-05-09T09:24:14.056Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-09T09:24:14.282Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-09T09:24:14.282Z"
+        },
+        {
+          "msg": "  Posts (3): \"Traditional Vs Personal Wedding Vows\", \"Traditional Wedding Vows Meaning\", \"Write Wedding Vows\"",
+          "type": "info",
+          "time": "2026-05-09T09:24:14.282Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-05-09T09:24:14.282Z"
+        },
+        {
+          "msg": "Writing article for \"traditional wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-09T09:24:14.283Z"
+        },
+        {
+          "msg": "Article ready: \"Traditional Wedding Vows: Timeless Words for Your Sacred Moment\"",
+          "type": "info",
+          "time": "2026-05-09T09:25:01.270Z"
+        },
+        {
+          "msg": "Excerpt length: 151 chars",
+          "type": "info",
+          "time": "2026-05-09T09:25:01.270Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony altar\"",
+          "type": "info",
+          "time": "2026-05-09T09:25:01.270Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-09T09:25:01.270Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony altar\"...",
+          "type": "info",
+          "time": "2026-05-09T09:25:01.270Z"
+        },
+        {
+          "msg": "Image: \"Man films a wedding ceremony with his phone\" by Fotógrafo Samuel Cruz",
+          "type": "info",
+          "time": "2026-05-09T09:25:01.632Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-09T09:25:01.633Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-09T09:25:01.752Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 2668)",
+          "type": "info",
+          "time": "2026-05-09T09:25:03.089Z"
+        },
+        {
+          "msg": "Meta description (151 chars): \"Discover the timeless beauty of traditional wedding vows and why countless couples choose these sacred promises. Complete guide with examples and tips.\"",
+          "type": "info",
+          "time": "2026-05-09T09:25:03.617Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
+          "type": "info",
+          "time": "2026-05-09T09:25:03.617Z"
+        },
+        {
+          "msg": "Published: https://helpwithvows.com/traditional-wedding-vows-timeless-words-for-your-sacred-moment/ (post ID: 2669, category: 8)",
+          "type": "info",
+          "time": "2026-05-09T09:25:05.956Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-09T09:25:05.956Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"traditional wedding vows\"",
+          "type": "info",
+          "time": "2026-05-09T09:25:05.956Z"
+        },
+        {
+          "msg": "  Meta description: \"Discover the timeless beauty of traditional wedding vows and why countless couples choose these sacred promises. Complete guide with examples and tips.\"",
+          "type": "info",
+          "time": "2026-05-09T09:25:05.956Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"traditional wedding vows\", desc: 151 chars",
+          "type": "info",
+          "time": "2026-05-09T09:25:07.162Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-09T09:25:07.162Z"
+        }
+      ],
+      "topic": "traditional wedding vows",
+      "tierId": 4,
+      "keyword": "traditional wedding vows",
+      "kd": null,
+      "vol": 18100,
+      "score": 18100,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Traditional Wedding Vows: Timeless Words for Your Sacred Moment",
+      "imageUrl": "https://images.unsplash.com/photo-1769230365384-ed56eb6d99dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjBhbHRhcnxlbnwxfDB8fHwxNzc4MzE4NzAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Fotógrafo Samuel Cruz",
+      "postId": 2669,
+      "postUrl": "https://helpwithvows.com/traditional-wedding-vows-timeless-words-for-your-sacred-moment/",
+      "mediaId": 2668,
+      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/traditional-wedding-vows-hero.jpg",
+      "finishedAt": "2026-05-09T09:25:07.162Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-08T09:44:16.908Z",
