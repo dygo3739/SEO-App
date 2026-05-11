@@ -51,10 +51,10 @@
     },
     {
       "topic": "wedding vows for him",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
-      "lastScore": null,
-      "lastRun": null
+      "lastScore": 8100,
+      "lastRun": "2026-05-11T11:29:33.783Z"
     },
     {
       "topic": "wedding vows for her",
@@ -107,6 +107,188 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-11T11:29:33.783Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-11T11:29:33.787Z"
+        },
+        {
+          "msg": "Topic: \"wedding vows for him\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-11T11:29:33.788Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-11T11:29:33.788Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-05-11T11:29:33.788Z"
+        },
+        {
+          "msg": "Candidates: \"wedding vows for him\" vol=8100, \"wedding vows for him examples\" vol=140, \"wedding vows for him ideas\" vol=260, \"wedding vows for him tips\" vol=0, \"best wedding vows for him\" vol=390, \"how to write wedding vows for him\" vol=1000, \"wedding vows for him for wedding ceremony\" vol=0, \"wedding vows for him that make you cry\" vol=590",
+          "type": "info",
+          "time": "2026-05-11T11:29:37.150Z"
+        },
+        {
+          "msg": "Selected: \"wedding vows for him\" - vol 8,100",
+          "type": "info",
+          "time": "2026-05-11T11:29:37.174Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-11T11:29:37.174Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-11T11:29:37.174Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-11T11:29:37.176Z"
+        },
+        {
+          "msg": "Found 36 published posts",
+          "type": "info",
+          "time": "2026-05-11T11:29:38.629Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-11T11:29:38.926Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-11T11:29:38.927Z"
+        },
+        {
+          "msg": "  Posts (3): \"Write Wedding Vows\", \"Why Writing Your Own Wedding Vows Is Harder Than People Expect\", \"Traditional Vs Personal Wedding Vows\"",
+          "type": "info",
+          "time": "2026-05-11T11:29:38.927Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-05-11T11:29:38.927Z"
+        },
+        {
+          "msg": "Writing article for \"wedding vows for him\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-11T11:29:38.927Z"
+        },
+        {
+          "msg": "Article ready: \"Wedding Vows for Him: Heartfelt Words That Show Your Love\"",
+          "type": "info",
+          "time": "2026-05-11T11:30:29.146Z"
+        },
+        {
+          "msg": "Excerpt length: 157 chars",
+          "type": "info",
+          "time": "2026-05-11T11:30:29.146Z"
+        },
+        {
+          "msg": "Unsplash query: \"bride groom wedding vows\"",
+          "type": "info",
+          "time": "2026-05-11T11:30:29.146Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-11T11:30:29.146Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"bride groom wedding vows\"...",
+          "type": "info",
+          "time": "2026-05-11T11:30:29.146Z"
+        },
+        {
+          "msg": "Image: \"A man and a woman standing next to each other\" by Micah & Sammie Chaffin",
+          "type": "info",
+          "time": "2026-05-11T11:30:29.674Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-11T11:30:29.674Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-11T11:30:29.702Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 2678)",
+          "type": "info",
+          "time": "2026-05-11T11:30:30.862Z"
+        },
+        {
+          "msg": "Meta description (155 chars): \"Discover heartfelt wedding vows for him with romantic examples, personalization tips, and expert guidance to create unforgettable words for your special...\"",
+          "type": "info",
+          "time": "2026-05-11T11:30:31.341Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
+          "type": "info",
+          "time": "2026-05-11T11:30:31.341Z"
+        },
+        {
+          "msg": "Published: https://helpwithvows.com/wedding-vows-for-him-heartfelt-words-that-show-your-love/ (post ID: 2679, category: 8)",
+          "type": "info",
+          "time": "2026-05-11T11:30:33.698Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-11T11:30:33.698Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"wedding vows for him\"",
+          "type": "info",
+          "time": "2026-05-11T11:30:33.698Z"
+        },
+        {
+          "msg": "  Meta description: \"Discover heartfelt wedding vows for him with romantic examples, personalization tips, and expert guidance to create unforgettable words for your special...\"",
+          "type": "info",
+          "time": "2026-05-11T11:30:33.698Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"wedding vows for him\", desc: 155 chars",
+          "type": "info",
+          "time": "2026-05-11T11:30:35.032Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-11T11:30:35.032Z"
+        }
+      ],
+      "topic": "wedding vows for him",
+      "tierId": 4,
+      "keyword": "wedding vows for him",
+      "kd": null,
+      "vol": 8100,
+      "score": 8100,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Wedding Vows for Him: Heartfelt Words That Show Your Love",
+      "imageUrl": "https://images.unsplash.com/photo-1737176424046-c0c755317477?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwzfHxicmlkZSUyMGdyb29tJTIwd2VkZGluZyUyMHZvd3N8ZW58MXwwfHx8MTc3ODQ5OTAyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Micah & Sammie Chaffin",
+      "postId": 2679,
+      "postUrl": "https://helpwithvows.com/wedding-vows-for-him-heartfelt-words-that-show-your-love/",
+      "mediaId": 2678,
+      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/wedding-vows-for-him-hero.jpg",
+      "finishedAt": "2026-05-11T11:30:35.032Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-10T09:41:32.394Z",
