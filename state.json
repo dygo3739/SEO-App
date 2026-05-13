@@ -65,10 +65,10 @@
     },
     {
       "topic": "how long should wedding vows be",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
-      "lastScore": null,
-      "lastRun": null
+      "lastScore": 1300,
+      "lastRun": "2026-05-13T10:34:06.610Z"
     },
     {
       "topic": "wedding vow renewal ideas",
@@ -107,6 +107,188 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-13T10:34:06.610Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-13T10:34:06.613Z"
+        },
+        {
+          "msg": "Topic: \"how long should wedding vows be\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-13T10:34:06.614Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-13T10:34:06.614Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-05-13T10:34:06.615Z"
+        },
+        {
+          "msg": "Candidates: \"how long should wedding vows be\" vol=1300, \"how long should wedding vows be examples\" vol=0, \"how long should wedding vows be ideas\" vol=0, \"how long should wedding vows be tips\" vol=0, \"best how long should wedding vows be\" vol=0, \"how to write how long should wedding vows be\" vol=0, \"how long should wedding vows be for wedding ceremony\" vol=0, \"how long should wedding vows be that make you cry\" vol=0",
+          "type": "info",
+          "time": "2026-05-13T10:34:10.968Z"
+        },
+        {
+          "msg": "Selected: \"how long should wedding vows be\" - vol 1,300",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.233Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.233Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.233Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.235Z"
+        },
+        {
+          "msg": "Found 38 published posts",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.898Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.899Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.899Z"
+        },
+        {
+          "msg": "  Posts (3): \"Write Wedding Vows\", \"Why Writing Your Own Wedding Vows Is Harder Than People Expect\", \"Traditional Vs Personal Wedding Vows\"",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.899Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.900Z"
+        },
+        {
+          "msg": "Writing article for \"how long should wedding vows be\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-13T10:34:11.900Z"
+        },
+        {
+          "msg": "Article ready: \"How Long Should Wedding Vows Be? The Perfect Length Guide for Your Big Day\"",
+          "type": "info",
+          "time": "2026-05-13T10:35:01.876Z"
+        },
+        {
+          "msg": "Excerpt length: 181 chars",
+          "type": "info",
+          "time": "2026-05-13T10:35:01.876Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony vows\"",
+          "type": "info",
+          "time": "2026-05-13T10:35:01.876Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-13T10:35:01.876Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony vows\"...",
+          "type": "info",
+          "time": "2026-05-13T10:35:01.876Z"
+        },
+        {
+          "msg": "Image: \"Wedding accessories with floral crowns and boots\" by Brianna Parks",
+          "type": "info",
+          "time": "2026-05-13T10:35:02.832Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-13T10:35:02.832Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-13T10:35:02.850Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 2684)",
+          "type": "info",
+          "time": "2026-05-13T10:35:03.696Z"
+        },
+        {
+          "msg": "Meta description (155 chars): \"Wondering how long should wedding vows be? Discover the perfect 1-3 minute sweet spot, plus expert tips for crafting meaningful vows that captivate with...\"",
+          "type": "info",
+          "time": "2026-05-13T10:35:04.014Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
+          "type": "info",
+          "time": "2026-05-13T10:35:04.014Z"
+        },
+        {
+          "msg": "Published: https://helpwithvows.com/how-long-should-wedding-vows-be-the-perfect-length-guide-for-your-big-day/ (post ID: 2685, category: 8)",
+          "type": "info",
+          "time": "2026-05-13T10:35:06.773Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-13T10:35:06.773Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"how long should wedding vows be\"",
+          "type": "info",
+          "time": "2026-05-13T10:35:06.773Z"
+        },
+        {
+          "msg": "  Meta description: \"Wondering how long should wedding vows be? Discover the perfect 1-3 minute sweet spot, plus expert tips for crafting meaningful vows that captivate with...\"",
+          "type": "info",
+          "time": "2026-05-13T10:35:06.773Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"how long should wedding vows be\", desc: 155 chars",
+          "type": "info",
+          "time": "2026-05-13T10:35:08.000Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-13T10:35:08.000Z"
+        }
+      ],
+      "topic": "how long should wedding vows be",
+      "tierId": 4,
+      "keyword": "how long should wedding vows be",
+      "kd": null,
+      "vol": 1300,
+      "score": 1300,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How Long Should Wedding Vows Be? The Perfect Length Guide for Your Big Day",
+      "imageUrl": "https://images.unsplash.com/photo-1769540394671-4257a1d41d30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjB2b3dzfGVufDF8MHx8fDE3Nzg2Njg1MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Brianna Parks",
+      "postId": 2685,
+      "postUrl": "https://helpwithvows.com/how-long-should-wedding-vows-be-the-perfect-length-guide-for-your-big-day/",
+      "mediaId": 2684,
+      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/how-long-should-wedding-vows-be-hero.jpg",
+      "finishedAt": "2026-05-13T10:35:08.000Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-12T10:36:41.347Z",
