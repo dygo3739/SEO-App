@@ -16,10 +16,10 @@
     },
     {
       "topic": "personal wedding vows",
-      "uses": 1,
+      "uses": 2,
       "lastKd": null,
-      "lastScore": 1000,
-      "lastRun": "2026-05-08T01:23:34.857Z"
+      "lastScore": null,
+      "lastRun": "2026-05-21T11:30:39.739Z"
     },
     {
       "topic": "short wedding vows",
@@ -107,6 +107,183 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-21T11:30:39.739Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-21T11:30:39.743Z"
+        },
+        {
+          "msg": "Topic: \"personal wedding vows\" (used 1x before)",
+          "type": "info",
+          "time": "2026-05-21T11:30:39.745Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-21T11:30:39.745Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-05-21T11:30:39.745Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-21T11:30:40.423Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.423Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.423Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.424Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.506Z"
+        },
+        {
+          "msg": "Found 45 published posts",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.507Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.508Z"
+        },
+        {
+          "msg": "  Posts (3): \"Traditional Vs Personal Wedding Vows\", \"How To Write Personal Wedding Vows That Capture Your Love Story\", \"Write Wedding Vows\"",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.508Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.508Z"
+        },
+        {
+          "msg": "Writing article for \"personal wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-21T11:30:40.508Z"
+        },
+        {
+          "msg": "Article ready: \"Personal Wedding Vows: How to Write Heartfelt Promises That Truly Reflect Your Love\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:35.536Z"
+        },
+        {
+          "msg": "Excerpt length: 153 chars",
+          "type": "info",
+          "time": "2026-05-21T11:31:35.536Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony vows\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:35.536Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-21T11:31:35.536Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony vows\"...",
+          "type": "info",
+          "time": "2026-05-21T11:31:35.536Z"
+        },
+        {
+          "msg": "Image: \"Wedding accessories with floral crowns and boots\" by Brianna Parks",
+          "type": "info",
+          "time": "2026-05-21T11:31:36.079Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-21T11:31:36.079Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-21T11:31:36.141Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 2705)",
+          "type": "info",
+          "time": "2026-05-21T11:31:37.497Z"
+        },
+        {
+          "msg": "Meta description (153 chars): \"Learn how to write personal wedding vows that truly capture your love story. Get practical tips, structure ideas, and inspiration for heartfelt promises.\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:37.802Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
+          "type": "info",
+          "time": "2026-05-21T11:31:37.802Z"
+        },
+        {
+          "msg": "Published: https://helpwithvows.com/personal-wedding-vows-how-to-write-heartfelt-promises-that-truly-reflect-your-love/ (post ID: 2706, category: 8)",
+          "type": "info",
+          "time": "2026-05-21T11:31:39.951Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-21T11:31:39.951Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"personal wedding vows\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:39.951Z"
+        },
+        {
+          "msg": "  Meta description: \"Learn how to write personal wedding vows that truly capture your love story. Get practical tips, structure ideas, and inspiration for heartfelt promises.\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:39.951Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"personal wedding vows\", desc: 153 chars",
+          "type": "info",
+          "time": "2026-05-21T11:31:41.103Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-21T11:31:41.103Z"
+        }
+      ],
+      "topic": "personal wedding vows",
+      "tierId": 4,
+      "keyword": "personal wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Personal Wedding Vows: How to Write Heartfelt Promises That Truly Reflect Your Love",
+      "imageUrl": "https://images.unsplash.com/photo-1769540394671-4257a1d41d30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjB2b3dzfGVufDF8MHx8fDE3NzkzNjMwOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Brianna Parks",
+      "postId": 2706,
+      "postUrl": "https://helpwithvows.com/personal-wedding-vows-how-to-write-heartfelt-promises-that-truly-reflect-your-love/",
+      "mediaId": 2705,
+      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/personal-wedding-vows-hero-1.jpg",
+      "finishedAt": "2026-05-21T11:31:41.103Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-20T10:56:32.154Z",
