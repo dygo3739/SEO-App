@@ -30,10 +30,10 @@
     },
     {
       "topic": "funny wedding vows",
-      "uses": 1,
+      "uses": 2,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-08T09:44:16.908Z"
+      "lastRun": "2026-05-23T09:58:08.799Z"
     },
     {
       "topic": "traditional wedding vows",
@@ -107,6 +107,135 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-05-23T09:58:08.799Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-23T09:58:08.802Z"
+        },
+        {
+          "msg": "Topic: \"funny wedding vows\" (used 1x before)",
+          "type": "info",
+          "time": "2026-05-23T09:58:08.804Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-05-23T09:58:08.805Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-05-23T09:58:08.805Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-23T09:58:09.324Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.324Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.325Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.327Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.664Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.666Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.666Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.666Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.666Z"
+        },
+        {
+          "msg": "Writing article for \"funny wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-23T09:58:09.667Z"
+        },
+        {
+          "msg": "Article ready: \"Funny Wedding Vows That Make Everyone Laugh and Cry Happy Tears\"",
+          "type": "info",
+          "time": "2026-05-23T09:59:05.325Z"
+        },
+        {
+          "msg": "Excerpt length: 212 chars",
+          "type": "info",
+          "time": "2026-05-23T09:59:05.325Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony laughter\"",
+          "type": "info",
+          "time": "2026-05-23T09:59:05.325Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-05-23T09:59:05.325Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony laughter\"...",
+          "type": "info",
+          "time": "2026-05-23T09:59:05.326Z"
+        },
+        {
+          "msg": "Image: \"bride and groom standing on the street during daytime\" by Jakob Owens",
+          "type": "info",
+          "time": "2026-05-23T09:59:05.800Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-23T09:59:05.801Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-23T09:59:05.968Z"
+        }
+      ],
+      "topic": "funny wedding vows",
+      "tierId": 4,
+      "keyword": "funny wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "Funny Wedding Vows That Make Everyone Laugh and Cry Happy Tears",
+      "imageUrl": "https://images.unsplash.com/photo-1606217239582-d9f72323bcd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjBsYXVnaHRlcnxlbnwxfDB8fHwxNzc5NTMwMzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Jakob Owens",
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "finishedAt": "2026-05-23T09:59:06.366Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-22T10:54:58.525Z",
