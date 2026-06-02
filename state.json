@@ -93,10 +93,10 @@
     },
     {
       "topic": "emotional wedding vows",
-      "uses": 1,
+      "uses": 2,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-17T09:50:46.989Z"
+      "lastRun": "2026-06-02T12:09:14.912Z"
     },
     {
       "topic": "writing your own wedding vows tips",
@@ -107,6 +107,135 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-02T12:09:14.912Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-02T12:09:14.915Z"
+        },
+        {
+          "msg": "Topic: \"emotional wedding vows\" (used 1x before)",
+          "type": "info",
+          "time": "2026-06-02T12:09:14.918Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-06-02T12:09:14.918Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-06-02T12:09:14.918Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-02T12:09:15.382Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.382Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.382Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.384Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.804Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.805Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.806Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.806Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.806Z"
+        },
+        {
+          "msg": "Writing article for \"emotional wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-02T12:09:15.806Z"
+        },
+        {
+          "msg": "Article ready: \"How to Write Emotional Wedding Vows That Touch Every Heart\"",
+          "type": "info",
+          "time": "2026-06-02T12:09:59.058Z"
+        },
+        {
+          "msg": "Excerpt length: 178 chars",
+          "type": "info",
+          "time": "2026-06-02T12:09:59.059Z"
+        },
+        {
+          "msg": "Unsplash query: \"emotional wedding ceremony vows\"",
+          "type": "info",
+          "time": "2026-06-02T12:09:59.059Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-02T12:09:59.059Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"emotional wedding ceremony vows\"...",
+          "type": "info",
+          "time": "2026-06-02T12:09:59.059Z"
+        },
+        {
+          "msg": "Image: \"grayscale photography of bride and groom\" by Cayton Heath",
+          "type": "info",
+          "time": "2026-06-02T12:09:59.460Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-06-02T12:09:59.461Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-06-02T12:09:59.484Z"
+        }
+      ],
+      "topic": "emotional wedding vows",
+      "tierId": 4,
+      "keyword": "emotional wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "How to Write Emotional Wedding Vows That Touch Every Heart",
+      "imageUrl": "https://images.unsplash.com/photo-1453857271477-4f9a4081966e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwzfHxlbW90aW9uYWwlMjB3ZWRkaW5nJTIwY2VyZW1vbnklMjB2b3dzfGVufDF8MHx8fDE3ODA0MDIxOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Cayton Heath",
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "finishedAt": "2026-06-02T12:10:00.458Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-01T13:42:14.280Z",
