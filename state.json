@@ -9,10 +9,10 @@
     },
     {
       "topic": "wedding vow examples",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-20T10:56:32.154Z"
+      "lastRun": "2026-06-05T11:32:04.793Z"
     },
     {
       "topic": "personal wedding vows",
@@ -107,6 +107,135 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-05T11:32:04.793Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-05T11:32:04.796Z"
+        },
+        {
+          "msg": "Topic: \"wedding vow examples\" (used 2x before)",
+          "type": "info",
+          "time": "2026-06-05T11:32:04.798Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-06-05T11:32:04.798Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-06-05T11:32:04.798Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-05T11:32:05.405Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.405Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.405Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.407Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.690Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.693Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.694Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.694Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.694Z"
+        },
+        {
+          "msg": "Writing article for \"wedding vow examples\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-05T11:32:05.694Z"
+        },
+        {
+          "msg": "Article ready: \"Beautiful Wedding Vow Examples to Inspire Your Perfect Promise\"",
+          "type": "info",
+          "time": "2026-06-05T11:32:53.983Z"
+        },
+        {
+          "msg": "Excerpt length: 171 chars",
+          "type": "info",
+          "time": "2026-06-05T11:32:53.983Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony vows\"",
+          "type": "info",
+          "time": "2026-06-05T11:32:53.983Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-05T11:32:53.983Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony vows\"...",
+          "type": "info",
+          "time": "2026-06-05T11:32:53.983Z"
+        },
+        {
+          "msg": "Image: \"grayscale photo of man insert ring into woman during wedding ceremony\" by Cinematic Imagery",
+          "type": "info",
+          "time": "2026-06-05T11:32:54.767Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-06-05T11:32:54.768Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-06-05T11:32:54.913Z"
+        }
+      ],
+      "topic": "wedding vow examples",
+      "tierId": 4,
+      "keyword": "wedding vow examples",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "Beautiful Wedding Vow Examples to Inspire Your Perfect Promise",
+      "imageUrl": "https://images.unsplash.com/photo-1523369579000-4ec0fe04db44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjB2b3dzfGVufDF8MHx8fDE3ODA2NTkxNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Cinematic Imagery",
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "finishedAt": "2026-06-05T11:32:55.289Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-04T11:18:53.455Z",
