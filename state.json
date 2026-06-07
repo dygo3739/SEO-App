@@ -23,10 +23,10 @@
     },
     {
       "topic": "short wedding vows",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-22T10:54:58.525Z"
+      "lastRun": "2026-06-07T10:32:07.177Z"
     },
     {
       "topic": "funny wedding vows",
@@ -107,6 +107,135 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-07T10:32:07.177Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-07T10:32:07.180Z"
+        },
+        {
+          "msg": "Topic: \"short wedding vows\" (used 2x before)",
+          "type": "info",
+          "time": "2026-06-07T10:32:07.183Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-06-07T10:32:07.183Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-06-07T10:32:07.183Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-07T10:32:07.762Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-07T10:32:07.762Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-07T10:32:07.762Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-07T10:32:07.764Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-07T10:32:08.107Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-07T10:32:08.109Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-07T10:32:08.109Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-07T10:32:08.109Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-07T10:32:08.109Z"
+        },
+        {
+          "msg": "Writing article for \"short wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-07T10:32:08.109Z"
+        },
+        {
+          "msg": "Article ready: \"Short Wedding Vows: Heartfelt Words That Make a Big Impact\"",
+          "type": "info",
+          "time": "2026-06-07T10:32:51.793Z"
+        },
+        {
+          "msg": "Excerpt length: 178 chars",
+          "type": "info",
+          "time": "2026-06-07T10:32:51.793Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony intimate\"",
+          "type": "info",
+          "time": "2026-06-07T10:32:51.793Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-07T10:32:51.793Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony intimate\"...",
+          "type": "info",
+          "time": "2026-06-07T10:32:51.793Z"
+        },
+        {
+          "msg": "Image: \"grayscale photo of groom and bride\" by Jeremy Wong Weddings",
+          "type": "info",
+          "time": "2026-06-07T10:32:52.282Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-06-07T10:32:52.282Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-06-07T10:32:52.301Z"
+        }
+      ],
+      "topic": "short wedding vows",
+      "tierId": 4,
+      "keyword": "short wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "Short Wedding Vows: Heartfelt Words That Make a Big Impact",
+      "imageUrl": "https://images.unsplash.com/photo-1524650448000-02d0a2aeb6cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHw1fHx3ZWRkaW5nJTIwY2VyZW1vbnklMjBpbnRpbWF0ZXxlbnwxfDB8fHwxNzgwODI4MzcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Jeremy Wong Weddings",
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "finishedAt": "2026-06-07T10:32:52.608Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-06T10:09:13.611Z",
