@@ -58,10 +58,10 @@
     },
     {
       "topic": "wedding vows for her",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-28T11:42:03.265Z"
+      "lastRun": "2026-06-12T11:47:05.516Z"
     },
     {
       "topic": "how long should wedding vows be",
@@ -107,6 +107,135 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-12T11:47:05.516Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-12T11:47:05.519Z"
+        },
+        {
+          "msg": "Topic: \"wedding vows for her\" (used 2x before)",
+          "type": "info",
+          "time": "2026-06-12T11:47:05.522Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-06-12T11:47:05.522Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-06-12T11:47:05.522Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-12T11:47:06.048Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.049Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.049Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.051Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.329Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.330Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.331Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.331Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.331Z"
+        },
+        {
+          "msg": "Writing article for \"wedding vows for her\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-12T11:47:06.331Z"
+        },
+        {
+          "msg": "Article ready: \"Wedding Vows for Her: How to Write the Perfect Promises to Your Bride\"",
+          "type": "info",
+          "time": "2026-06-12T11:47:59.806Z"
+        },
+        {
+          "msg": "Excerpt length: 204 chars",
+          "type": "info",
+          "time": "2026-06-12T11:47:59.806Z"
+        },
+        {
+          "msg": "Unsplash query: \"groom bride wedding vows\"",
+          "type": "info",
+          "time": "2026-06-12T11:47:59.806Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-12T11:47:59.807Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"groom bride wedding vows\"...",
+          "type": "info",
+          "time": "2026-06-12T11:47:59.807Z"
+        },
+        {
+          "msg": "Image: \"woman giving wedding ring to man\" by Jeremy Wong Weddings",
+          "type": "info",
+          "time": "2026-06-12T11:48:00.238Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-06-12T11:48:00.239Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-06-12T11:48:00.272Z"
+        }
+      ],
+      "topic": "wedding vows for her",
+      "tierId": 4,
+      "keyword": "wedding vows for her",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "Wedding Vows for Her: How to Write the Perfect Promises to Your Bride",
+      "imageUrl": "https://images.unsplash.com/photo-1521543269800-27e08780ced7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHxncm9vbSUyMGJyaWRlJTIwd2VkZGluZyUyMHZvd3N8ZW58MXwwfHx8MTc4MTI2NDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Jeremy Wong Weddings",
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "finishedAt": "2026-06-12T11:48:00.689Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-11T12:13:10.476Z",
