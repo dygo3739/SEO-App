@@ -65,10 +65,10 @@
     },
     {
       "topic": "how long should wedding vows be",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-29T11:33:44.868Z"
+      "lastRun": "2026-06-13T10:33:02.375Z"
     },
     {
       "topic": "wedding vow renewal ideas",
@@ -107,6 +107,135 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-13T10:33:02.375Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-13T10:33:02.378Z"
+        },
+        {
+          "msg": "Topic: \"how long should wedding vows be\" (used 2x before)",
+          "type": "info",
+          "time": "2026-06-13T10:33:02.381Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-06-13T10:33:02.381Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-06-13T10:33:02.381Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-13T10:33:02.833Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-13T10:33:02.833Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-13T10:33:02.833Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-13T10:33:02.835Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-13T10:33:03.152Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-13T10:33:03.154Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-13T10:33:03.154Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-13T10:33:03.154Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-13T10:33:03.154Z"
+        },
+        {
+          "msg": "Writing article for \"how long should wedding vows be\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-13T10:33:03.155Z"
+        },
+        {
+          "msg": "Article ready: \"How Long Should Wedding Vows Be? The Perfect Length for Your Big Day\"",
+          "type": "info",
+          "time": "2026-06-13T10:33:47.768Z"
+        },
+        {
+          "msg": "Excerpt length: 255 chars",
+          "type": "info",
+          "time": "2026-06-13T10:33:47.768Z"
+        },
+        {
+          "msg": "Unsplash query: \"wedding ceremony vows\"",
+          "type": "info",
+          "time": "2026-06-13T10:33:47.768Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-13T10:33:47.768Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"wedding ceremony vows\"...",
+          "type": "info",
+          "time": "2026-06-13T10:33:47.768Z"
+        },
+        {
+          "msg": "Image: \"grayscale photo of man insert ring into woman during wedding ceremony\" by Cinematic Imagery",
+          "type": "info",
+          "time": "2026-06-13T10:33:48.414Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-06-13T10:33:48.414Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-06-13T10:33:48.586Z"
+        }
+      ],
+      "topic": "how long should wedding vows be",
+      "tierId": 4,
+      "keyword": "how long should wedding vows be",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "How Long Should Wedding Vows Be? The Perfect Length for Your Big Day",
+      "imageUrl": "https://images.unsplash.com/photo-1523369579000-4ec0fe04db44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjB2b3dzfGVufDF8MHx8fDE3ODEzNDY4Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Cinematic Imagery",
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "finishedAt": "2026-06-13T10:33:49.014Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-12T11:47:05.516Z",
