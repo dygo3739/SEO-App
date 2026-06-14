@@ -72,10 +72,10 @@
     },
     {
       "topic": "wedding vow renewal ideas",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-30T10:04:22.935Z"
+      "lastRun": "2026-06-14T10:51:12.706Z"
     },
     {
       "topic": "unique wedding vows",
@@ -107,6 +107,183 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-14T10:51:12.706Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-14T10:51:12.710Z"
+        },
+        {
+          "msg": "Topic: \"wedding vow renewal ideas\" (used 2x before)",
+          "type": "info",
+          "time": "2026-06-14T10:51:12.713Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-06-14T10:51:12.713Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-06-14T10:51:12.713Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-14T10:51:13.260Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.260Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.260Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.261Z"
+        },
+        {
+          "msg": "Found 60 published posts",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.622Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.623Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.624Z"
+        },
+        {
+          "msg": "  Posts (3): \"25 Romantic Wedding Vow Renewal Ideas To Reignite Your Love Story\", \"Wedding Vow Renewal Ideas 15 Beautiful Ways To Celebrate Your Everlasting Love\", \"Unique Wedding Vows 25 Ideas To Make Your Ceremony Unforgettable\"",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.624Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Destination Wedding Ceremony\", \"Glossary/Vow Renewal\", \"Glossary/Micro Wedding\"",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.624Z"
+        },
+        {
+          "msg": "Writing article for \"wedding vow renewal ideas\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-14T10:51:13.625Z"
+        },
+        {
+          "msg": "Article ready: \"Wedding Vow Renewal Ideas: 15+ Beautiful Ways to Celebrate Your Enduring Love\"",
+          "type": "info",
+          "time": "2026-06-14T10:52:09.550Z"
+        },
+        {
+          "msg": "Excerpt length: 155 chars",
+          "type": "info",
+          "time": "2026-06-14T10:52:09.550Z"
+        },
+        {
+          "msg": "Unsplash query: \"vow renewal ceremony romantic\"",
+          "type": "info",
+          "time": "2026-06-14T10:52:09.550Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-14T10:52:09.550Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"vow renewal ceremony romantic\"...",
+          "type": "info",
+          "time": "2026-06-14T10:52:09.550Z"
+        },
+        {
+          "msg": "Image: \"man in white dress shirt holding brown flower bouquet\" by Jonathan Borba",
+          "type": "info",
+          "time": "2026-06-14T10:52:10.033Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-06-14T10:52:10.034Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-06-14T10:52:10.117Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 2751)",
+          "type": "info",
+          "time": "2026-06-14T10:52:12.216Z"
+        },
+        {
+          "msg": "Meta description (155 chars): \"Discover meaningful wedding vow renewal ideas to celebrate your enduring love story. From intimate ceremonies to adventure renewals, find inspiration here.\"",
+          "type": "info",
+          "time": "2026-06-14T10:52:12.834Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
+          "type": "info",
+          "time": "2026-06-14T10:52:12.834Z"
+        },
+        {
+          "msg": "Published: https://helpwithvows.com/wedding-vow-renewal-ideas-15-beautiful-ways-to-celebrate-your-enduring-love/ (post ID: 2752, category: 8)",
+          "type": "info",
+          "time": "2026-06-14T10:52:15.932Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-06-14T10:52:15.932Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"wedding vow renewal ideas\"",
+          "type": "info",
+          "time": "2026-06-14T10:52:15.932Z"
+        },
+        {
+          "msg": "  Meta description: \"Discover meaningful wedding vow renewal ideas to celebrate your enduring love story. From intimate ceremonies to adventure renewals, find inspiration here.\"",
+          "type": "info",
+          "time": "2026-06-14T10:52:15.932Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"wedding vow renewal ideas\", desc: 155 chars",
+          "type": "info",
+          "time": "2026-06-14T10:52:17.320Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-14T10:52:17.320Z"
+        }
+      ],
+      "topic": "wedding vow renewal ideas",
+      "tierId": 4,
+      "keyword": "wedding vow renewal ideas",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Wedding Vow Renewal Ideas: 15+ Beautiful Ways to Celebrate Your Enduring Love",
+      "imageUrl": "https://images.unsplash.com/photo-1621621667797-e06afc217fb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHx2b3clMjByZW5ld2FsJTIwY2VyZW1vbnklMjByb21hbnRpY3xlbnwxfDB8fHwxNzgxNDM0MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Jonathan Borba",
+      "postId": 2752,
+      "postUrl": "https://helpwithvows.com/wedding-vow-renewal-ideas-15-beautiful-ways-to-celebrate-your-enduring-love/",
+      "mediaId": 2751,
+      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/06/wedding-vow-renewal-ideas-hero.jpg",
+      "finishedAt": "2026-06-14T10:52:17.320Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-13T10:33:02.375Z",
