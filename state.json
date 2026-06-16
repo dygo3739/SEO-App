@@ -86,10 +86,10 @@
     },
     {
       "topic": "simple wedding vows",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-06-01T13:42:14.280Z"
+      "lastRun": "2026-06-16T12:57:54.345Z"
     },
     {
       "topic": "emotional wedding vows",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-16T12:57:54.345Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-16T12:57:54.349Z"
+        },
+        {
+          "msg": "Topic: \"simple wedding vows\" (used 2x before)",
+          "type": "info",
+          "time": "2026-06-16T12:57:54.352Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-06-16T12:57:54.352Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-06-16T12:57:54.352Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-16T12:57:54.983Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-16T12:57:54.983Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-16T12:57:54.983Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-16T12:57:54.985Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-16T12:57:55.107Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-06-16T12:57:55.110Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-16T12:57:55.111Z"
+        },
+        {
+          "msg": "  Posts (3): \"Simple Wedding Vows That Speak From The Heart A Guide For Couples\", \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\", \"Personal Wedding Vows How To Write Vows That Truly Reflect Your Heart\"",
+          "type": "info",
+          "time": "2026-06-16T12:57:55.111Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-06-16T12:57:55.111Z"
+        },
+        {
+          "msg": "Writing article for \"simple wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-16T12:57:55.111Z"
+        }
+      ],
+      "topic": "simple wedding vows",
+      "tierId": 4,
+      "keyword": "simple wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cc6yemzyB4DDA9HN1DVeC\"}",
+      "finishedAt": "2026-06-16T12:57:55.252Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-15T14:27:56.479Z",
