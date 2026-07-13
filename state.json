@@ -65,10 +65,10 @@
     },
     {
       "topic": "how long should wedding vows be",
-      "uses": 4,
+      "uses": 5,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-06-28T10:31:48.958Z"
+      "lastRun": "2026-07-13T11:17:10.932Z"
     },
     {
       "topic": "wedding vow renewal ideas",
@@ -107,6 +107,97 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-07-13T11:17:10.932Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-07-13T11:17:10.935Z"
+        },
+        {
+          "msg": "Topic: \"how long should wedding vows be\" (used 4x before)",
+          "type": "info",
+          "time": "2026-07-13T11:17:10.938Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-07-13T11:17:10.938Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-07-13T11:17:10.938Z"
+        },
+        {
+          "msg": "Candidates: ",
+          "type": "info",
+          "time": "2026-07-13T11:17:11.607Z"
+        },
+        {
+          "msg": "No candidates met vol>=1000 for Tier 4 - using topic directly",
+          "type": "warn",
+          "time": "2026-07-13T11:17:11.607Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-07-13T11:17:11.607Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-07-13T11:17:11.607Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-07-13T11:17:11.609Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-07-13T11:17:12.243Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-07-13T11:17:12.383Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-07-13T11:17:12.384Z"
+        },
+        {
+          "msg": "  Posts (3): \"How Long Should Wedding Vows Be The Perfect Length Guide For Your Big Day\", \"How Long Should Wedding Vows Be The Perfect Length Guide For Your Big Day 2\", \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\"",
+          "type": "info",
+          "time": "2026-07-13T11:17:12.384Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-07-13T11:17:12.384Z"
+        },
+        {
+          "msg": "Writing article for \"how long should wedding vows be\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-07-13T11:17:12.385Z"
+        }
+      ],
+      "topic": "how long should wedding vows be",
+      "tierId": 4,
+      "keyword": "how long should wedding vows be",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Ccyxp52EewzFswbGpExFM\"}",
+      "finishedAt": "2026-07-13T11:17:12.686Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-07-12T09:54:12.231Z",
