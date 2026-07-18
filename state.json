@@ -100,13 +100,99 @@
     },
     {
       "topic": "writing your own wedding vows tips",
-      "uses": 4,
+      "uses": 5,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-07-03T10:41:25.344Z"
+      "lastRun": "2026-07-18T09:37:15.460Z"
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-07-18T09:37:15.460Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-07-18T09:37:15.464Z"
+        },
+        {
+          "msg": "Topic: \"writing your own wedding vows tips\" (used 4x before)",
+          "type": "info",
+          "time": "2026-07-18T09:37:15.467Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-07-18T09:37:15.467Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-07-18T09:37:15.468Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-07-18T09:37:15.969Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-07-18T09:37:15.969Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-07-18T09:37:15.969Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-07-18T09:37:15.971Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-07-18T09:37:16.417Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-07-18T09:37:16.419Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-07-18T09:37:16.419Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-07-18T09:37:16.419Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-07-18T09:37:16.419Z"
+        },
+        {
+          "msg": "Writing article for \"writing your own wedding vows tips\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-07-18T09:37:16.420Z"
+        }
+      ],
+      "topic": "writing your own wedding vows tips",
+      "tierId": 4,
+      "keyword": "writing your own wedding vows tips",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cd9JEetMddfD3tF1bnZU1\"}",
+      "finishedAt": "2026-07-18T09:37:16.546Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-07-17T10:02:15.674Z",
