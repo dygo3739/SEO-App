@@ -79,10 +79,10 @@
     },
     {
       "topic": "unique wedding vows",
-      "uses": 6,
+      "uses": 7,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-07-30T10:28:51.272Z"
+      "lastRun": "2026-08-14T09:10:56.977Z"
     },
     {
       "topic": "simple wedding vows",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-08-14T09:10:56.977Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-08-14T09:10:56.980Z"
+        },
+        {
+          "msg": "Topic: \"unique wedding vows\" (used 6x before)",
+          "type": "info",
+          "time": "2026-08-14T09:10:56.984Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-08-14T09:10:56.985Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-08-14T09:10:56.985Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-08-14T09:10:57.449Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-08-14T09:10:57.449Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-08-14T09:10:57.449Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-08-14T09:10:57.451Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-08-14T09:10:57.814Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-08-14T09:10:58.294Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-08-14T09:10:58.295Z"
+        },
+        {
+          "msg": "  Posts (3): \"Unique Wedding Vows How To Write Vows That Are Truly Yours\", \"How To Write Unique Wedding Vows That Capture Your Love Story\", \"Unique Wedding Vows 25 Ideas To Make Your Ceremony Unforgettable\"",
+          "type": "info",
+          "time": "2026-08-14T09:10:58.295Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-08-14T09:10:58.295Z"
+        },
+        {
+          "msg": "Writing article for \"unique wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-08-14T09:10:58.296Z"
+        }
+      ],
+      "topic": "unique wedding vows",
+      "tierId": 4,
+      "keyword": "unique wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Ce2P53kmsNNpxQJ9teT8U\"}",
+      "finishedAt": "2026-08-14T09:10:58.453Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-08-13T09:16:14.776Z",
@@ -11892,141 +11978,6 @@
       "mediaId": 2596,
       "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/personal-wedding-vows-hero.jpg",
       "finishedAt": "2026-05-08T01:24:30.870Z"
-    },
-    {
-      "status": "success",
-      "startedAt": "2026-05-08T01:17:09.810Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-05-08T01:17:09.813Z"
-        },
-        {
-          "msg": "Topic: \"wedding vow examples\" (used 0x before)",
-          "type": "info",
-          "time": "2026-05-08T01:17:09.813Z"
-        },
-        {
-          "msg": "Active tier: 4 - Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-05-08T01:17:09.813Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-05-08T01:17:09.814Z"
-        },
-        {
-          "msg": "Candidates: \"wedding vow examples\" vol=14800, \"wedding vow examples examples\" vol=0, \"wedding vow examples ideas\" vol=0, \"wedding vow examples tips\" vol=0, \"best wedding vow examples\" vol=20, \"how to write wedding vow examples\" vol=0, \"wedding vow examples for wedding ceremony\" vol=0, \"wedding vow examples that make you cry\" vol=0",
-          "type": "info",
-          "time": "2026-05-08T01:17:14.954Z"
-        },
-        {
-          "msg": "Selected: \"wedding vow examples\" - vol 14,800",
-          "type": "info",
-          "time": "2026-05-08T01:17:15.041Z"
-        },
-        {
-          "msg": "Writing article for \"wedding vow examples\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-05-08T01:17:15.041Z"
-        },
-        {
-          "msg": "Article ready: \"Beautiful Wedding Vow Examples to Inspire Your Perfect Promise\"",
-          "type": "info",
-          "time": "2026-05-08T01:17:56.039Z"
-        },
-        {
-          "msg": "Unsplash query: \"wedding ceremony vows\"",
-          "type": "info",
-          "time": "2026-05-08T01:17:56.039Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"wedding ceremony vows\"...",
-          "type": "info",
-          "time": "2026-05-08T01:17:56.039Z"
-        },
-        {
-          "msg": "Image: \"Wedding accessories with floral crowns and boots\" by Brianna Parks",
-          "type": "info",
-          "time": "2026-05-08T01:17:56.376Z"
-        },
-        {
-          "msg": "Downloading hero image...",
-          "type": "info",
-          "time": "2026-05-08T01:17:56.376Z"
-        },
-        {
-          "msg": "Uploading image to WordPress media library...",
-          "type": "info",
-          "time": "2026-05-08T01:17:56.457Z"
-        },
-        {
-          "msg": "Image uploaded (ID: 2593)",
-          "type": "info",
-          "time": "2026-05-08T01:17:57.513Z"
-        },
-        {
-          "msg": "Meta description (155 chars): \"Feeling stuck writing your wedding vows? Discover beautiful wedding vow examples across traditional, modern, funny, and heartfelt styles to inspire your...\"",
-          "type": "info",
-          "time": "2026-05-08T01:17:58.026Z"
-        },
-        {
-          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
-          "type": "info",
-          "time": "2026-05-08T01:17:58.026Z"
-        },
-        {
-          "msg": "Published: https://helpwithvows.com/beautiful-wedding-vow-examples-to-inspire-your-perfect-promise/ (post ID: 2594, category: 8)",
-          "type": "info",
-          "time": "2026-05-08T01:17:59.657Z"
-        },
-        {
-          "msg": "Writing Yoast SEO fields...",
-          "type": "info",
-          "time": "2026-05-08T01:17:59.657Z"
-        },
-        {
-          "msg": "  Focus keyphrase : \"wedding vow examples\"",
-          "type": "info",
-          "time": "2026-05-08T01:17:59.657Z"
-        },
-        {
-          "msg": "  Meta description: \"Feeling stuck writing your wedding vows? Discover beautiful wedding vow examples across traditional, modern, funny, and heartfelt styles to inspire your...\"",
-          "type": "info",
-          "time": "2026-05-08T01:17:59.657Z"
-        },
-        {
-          "msg": "Yoast fields sent but not confirmed — enable REST API in Yoast Settings → Integrations",
-          "type": "warn",
-          "time": "2026-05-08T01:18:01.171Z"
-        },
-        {
-          "msg": "Pinterest skipped - PINTEREST_TOKEN or PINTEREST_BOARD_ID not configured",
-          "type": "warn",
-          "time": "2026-05-08T01:18:01.171Z"
-        },
-        {
-          "msg": "  Add both to GitHub Secrets once your Pinterest app is approved",
-          "type": "warn",
-          "time": "2026-05-08T01:18:01.171Z"
-        }
-      ],
-      "topic": "wedding vow examples",
-      "tierId": 4,
-      "keyword": "wedding vow examples",
-      "kd": null,
-      "vol": 14800,
-      "score": 14800,
-      "title": "Beautiful Wedding Vow Examples to Inspire Your Perfect Promise",
-      "imageUrl": "https://images.unsplash.com/photo-1769540394671-4257a1d41d30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjB2b3dzfGVufDF8MHx8fDE3NzgyMDMwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "Brianna Parks",
-      "postId": 2594,
-      "postUrl": "https://helpwithvows.com/beautiful-wedding-vow-examples-to-inspire-your-perfect-promise/",
-      "mediaId": 2593,
-      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/wedding-vow-examples-hero.jpg",
-      "finishedAt": "2026-05-08T01:18:01.171Z"
     }
   ]
 }
