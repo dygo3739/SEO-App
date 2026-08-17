@@ -100,13 +100,99 @@
     },
     {
       "topic": "writing your own wedding vows tips",
-      "uses": 6,
+      "uses": 7,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-08-02T10:00:25.864Z"
+      "lastRun": "2026-08-17T08:48:18.922Z"
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-08-17T08:48:18.922Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-08-17T08:48:18.926Z"
+        },
+        {
+          "msg": "Topic: \"writing your own wedding vows tips\" (used 6x before)",
+          "type": "info",
+          "time": "2026-08-17T08:48:18.929Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-08-17T08:48:18.929Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-08-17T08:48:18.930Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-08-17T08:48:19.376Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-08-17T08:48:19.376Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-08-17T08:48:19.376Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-08-17T08:48:19.378Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-08-17T08:48:20.032Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-08-17T08:48:20.189Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-08-17T08:48:20.190Z"
+        },
+        {
+          "msg": "  Posts (3): \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\", \"7 Essential Writing Your Own Wedding Vows Tips That Actually Work\", \"Why Writing Your Own Wedding Vows Is Harder Than People Expect\"",
+          "type": "info",
+          "time": "2026-08-17T08:48:20.190Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-08-17T08:48:20.190Z"
+        },
+        {
+          "msg": "Writing article for \"writing your own wedding vows tips\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-08-17T08:48:20.191Z"
+        }
+      ],
+      "topic": "writing your own wedding vows tips",
+      "tierId": 4,
+      "keyword": "writing your own wedding vows tips",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Ce82mgXnx1u76z4fWWP43\"}",
+      "finishedAt": "2026-08-17T08:48:20.336Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-08-16T08:33:24.247Z",
@@ -11620,188 +11706,6 @@
       "mediaId": 2668,
       "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/traditional-wedding-vows-hero.jpg",
       "finishedAt": "2026-05-09T09:25:07.162Z"
-    },
-    {
-      "status": "success",
-      "startedAt": "2026-05-08T09:44:16.908Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-05-08T09:44:16.911Z"
-        },
-        {
-          "msg": "Topic: \"funny wedding vows\" (used 0x before)",
-          "type": "info",
-          "time": "2026-05-08T09:44:16.912Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-05-08T09:44:16.913Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-05-08T09:44:16.913Z"
-        },
-        {
-          "msg": "Candidates: \"funny wedding vows\" vol=880, \"funny wedding vows examples\" vol=170, \"funny wedding vows ideas\" vol=170, \"funny wedding vows tips\" vol=0, \"best funny wedding vows\" vol=10, \"how to write funny wedding vows\" vol=10, \"funny wedding vows for wedding ceremony\" vol=0, \"funny wedding vows that make you cry\" vol=0",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.225Z"
-        },
-        {
-          "msg": "No candidates met vol>=1000 for Tier 4 - using topic directly",
-          "type": "warn",
-          "time": "2026-05-08T09:44:21.225Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.225Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.225Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.227Z"
-        },
-        {
-          "msg": "Found 32 published posts",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.432Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.435Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.436Z"
-        },
-        {
-          "msg": "  Posts (3): \"Write Wedding Vows\", \"Why Writing Your Own Wedding Vows Is Harder Than People Expect\", \"Traditional Vs Personal Wedding Vows\"",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.436Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.436Z"
-        },
-        {
-          "msg": "Writing article for \"funny wedding vows\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-05-08T09:44:21.436Z"
-        },
-        {
-          "msg": "Article ready: \"How to Write Funny Wedding Vows That Make Everyone Laugh (And Cry)\"",
-          "type": "info",
-          "time": "2026-05-08T09:45:12.274Z"
-        },
-        {
-          "msg": "Excerpt length: 173 chars",
-          "type": "info",
-          "time": "2026-05-08T09:45:12.274Z"
-        },
-        {
-          "msg": "Unsplash query: \"laughing wedding ceremony\"",
-          "type": "info",
-          "time": "2026-05-08T09:45:12.274Z"
-        },
-        {
-          "msg": "Post links: 3 | Term links: 3",
-          "type": "info",
-          "time": "2026-05-08T09:45:12.274Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"laughing wedding ceremony\"...",
-          "type": "info",
-          "time": "2026-05-08T09:45:12.275Z"
-        },
-        {
-          "msg": "Image: \"bride and groom standing on the street during daytime\" by Jakob Owens",
-          "type": "info",
-          "time": "2026-05-08T09:45:12.804Z"
-        },
-        {
-          "msg": "Downloading hero image...",
-          "type": "info",
-          "time": "2026-05-08T09:45:12.804Z"
-        },
-        {
-          "msg": "Uploading image to WordPress media library...",
-          "type": "info",
-          "time": "2026-05-08T09:45:12.979Z"
-        },
-        {
-          "msg": "Image uploaded (ID: 2665)",
-          "type": "info",
-          "time": "2026-05-08T09:45:14.873Z"
-        },
-        {
-          "msg": "Meta description (155 chars): \"Learn how to write funny wedding vows that perfectly balance humor and heart. Get tips, examples, and templates for creating memorable vows that make ev...\"",
-          "type": "info",
-          "time": "2026-05-08T09:45:15.221Z"
-        },
-        {
-          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
-          "type": "info",
-          "time": "2026-05-08T09:45:15.221Z"
-        },
-        {
-          "msg": "Published: https://helpwithvows.com/how-to-write-funny-wedding-vows-that-make-everyone-laugh-and-cry/ (post ID: 2666, category: 8)",
-          "type": "info",
-          "time": "2026-05-08T09:45:18.016Z"
-        },
-        {
-          "msg": "Writing Yoast SEO fields...",
-          "type": "info",
-          "time": "2026-05-08T09:45:18.016Z"
-        },
-        {
-          "msg": "  Focus keyphrase : \"funny wedding vows\"",
-          "type": "info",
-          "time": "2026-05-08T09:45:18.016Z"
-        },
-        {
-          "msg": "  Meta description: \"Learn how to write funny wedding vows that perfectly balance humor and heart. Get tips, examples, and templates for creating memorable vows that make ev...\"",
-          "type": "info",
-          "time": "2026-05-08T09:45:18.016Z"
-        },
-        {
-          "msg": "Yoast fields confirmed — keyphrase: \"funny wedding vows\", desc: 155 chars",
-          "type": "info",
-          "time": "2026-05-08T09:45:19.204Z"
-        },
-        {
-          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
-          "type": "warn",
-          "time": "2026-05-08T09:45:19.204Z"
-        }
-      ],
-      "topic": "funny wedding vows",
-      "tierId": 4,
-      "keyword": "funny wedding vows",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "title": "How to Write Funny Wedding Vows That Make Everyone Laugh (And Cry)",
-      "imageUrl": "https://images.unsplash.com/photo-1606217239582-d9f72323bcd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHxsYXVnaGluZyUyMHdlZGRpbmclMjBjZXJlbW9ueXxlbnwxfDB8fHwxNzc4MjMzNTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "Jakob Owens",
-      "postId": 2666,
-      "postUrl": "https://helpwithvows.com/how-to-write-funny-wedding-vows-that-make-everyone-laugh-and-cry/",
-      "mediaId": 2665,
-      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/funny-wedding-vows-hero.jpg",
-      "finishedAt": "2026-05-08T09:45:19.204Z"
     }
   ]
 }
