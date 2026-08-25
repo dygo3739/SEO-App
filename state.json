@@ -51,10 +51,10 @@
     },
     {
       "topic": "wedding vows for him",
-      "uses": 7,
+      "uses": 8,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-08-10T09:26:41.564Z"
+      "lastRun": "2026-08-25T08:48:33.429Z"
     },
     {
       "topic": "wedding vows for her",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-08-25T08:48:33.429Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-08-25T08:48:33.432Z"
+        },
+        {
+          "msg": "Topic: \"wedding vows for him\" (used 7x before)",
+          "type": "info",
+          "time": "2026-08-25T08:48:33.436Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-08-25T08:48:33.436Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-08-25T08:48:33.436Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-08-25T08:48:33.987Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-08-25T08:48:33.987Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-08-25T08:48:33.987Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-08-25T08:48:33.989Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-08-25T08:48:34.340Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-08-25T08:48:34.353Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-08-25T08:48:34.354Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-08-25T08:48:34.354Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-08-25T08:48:34.354Z"
+        },
+        {
+          "msg": "Writing article for \"wedding vows for him\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-08-25T08:48:34.354Z"
+        }
+      ],
+      "topic": "wedding vows for him",
+      "tierId": 4,
+      "keyword": "wedding vows for him",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CePBG42di1ffG8cR6NYAU\"}",
+      "finishedAt": "2026-08-25T08:48:34.530Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-08-24T08:52:35.881Z",
@@ -10920,135 +11006,6 @@
       "mediaId": 2693,
       "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/emotional-wedding-vows-hero.jpg",
       "finishedAt": "2026-05-17T09:51:48.228Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-05-16T09:45:07.524Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-05-16T09:45:07.528Z"
-        },
-        {
-          "msg": "Topic: \"simple wedding vows\" (used 0x before)",
-          "type": "info",
-          "time": "2026-05-16T09:45:07.529Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-05-16T09:45:07.529Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-05-16T09:45:07.529Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-05-16T09:45:08.230Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.230Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.230Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.232Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.298Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.300Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.300Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.300Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.300Z"
-        },
-        {
-          "msg": "Writing article for \"simple wedding vows\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-05-16T09:45:08.301Z"
-        },
-        {
-          "msg": "Article ready: \"Simple Wedding Vows That Speak From the Heart: Your Guide to Meaningful, Uncomplicated Promises\"",
-          "type": "info",
-          "time": "2026-05-16T09:45:50.956Z"
-        },
-        {
-          "msg": "Excerpt length: 160 chars",
-          "type": "info",
-          "time": "2026-05-16T09:45:50.956Z"
-        },
-        {
-          "msg": "Unsplash query: \"wedding ceremony romantic\"",
-          "type": "info",
-          "time": "2026-05-16T09:45:50.956Z"
-        },
-        {
-          "msg": "Post links: 0 | Term links: 0",
-          "type": "info",
-          "time": "2026-05-16T09:45:50.956Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"wedding ceremony romantic\"...",
-          "type": "info",
-          "time": "2026-05-16T09:45:50.956Z"
-        },
-        {
-          "msg": "Image: \"selective focus photography white and pink isle flower arrangement\" by Shardayyy Photography",
-          "type": "info",
-          "time": "2026-05-16T09:45:51.606Z"
-        },
-        {
-          "msg": "Downloading hero image...",
-          "type": "info",
-          "time": "2026-05-16T09:45:51.607Z"
-        },
-        {
-          "msg": "Uploading image to WordPress media library...",
-          "type": "info",
-          "time": "2026-05-16T09:45:51.762Z"
-        }
-      ],
-      "topic": "simple wedding vows",
-      "tierId": 4,
-      "keyword": "simple wedding vows",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "title": "Simple Wedding Vows That Speak From the Heart: Your Guide to Meaningful, Uncomplicated Promises",
-      "imageUrl": "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjByb21hbnRpY3xlbnwxfDB8fHwxNzc4OTI0NzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "Shardayyy Photography",
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "finishedAt": "2026-05-16T09:45:51.881Z"
     }
   ]
 }
