@@ -72,10 +72,10 @@
     },
     {
       "topic": "wedding vow renewal ideas",
-      "uses": 7,
+      "uses": 8,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-08-13T09:16:14.776Z"
+      "lastRun": "2026-08-28T20:05:32.033Z"
     },
     {
       "topic": "unique wedding vows",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-08-28T20:05:32.033Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.037Z"
+        },
+        {
+          "msg": "Topic: \"wedding vow renewal ideas\" (used 7x before)",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.040Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.040Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.041Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-08-28T20:05:32.552Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.552Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.552Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.554Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.892Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.894Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.895Z"
+        },
+        {
+          "msg": "  Posts (3): \"25 Romantic Wedding Vow Renewal Ideas To Reignite Your Love Story\", \"Wedding Vow Renewal Ideas 15 Beautiful Ways To Celebrate Your Everlasting Love\", \"Wedding Vow Renewal Ideas 15 Beautiful Ways To Celebrate Your Enduring Love\"",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.895Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Destination Wedding Ceremony\", \"Glossary/Vow Renewal\", \"Glossary/Micro Wedding\"",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.895Z"
+        },
+        {
+          "msg": "Writing article for \"wedding vow renewal ideas\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-08-28T20:05:32.895Z"
+        }
+      ],
+      "topic": "wedding vow renewal ideas",
+      "tierId": 4,
+      "keyword": "wedding vow renewal ideas",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CeVkJy7exudyg7HwWNPxV\"}",
+      "finishedAt": "2026-08-28T20:05:33.110Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-08-27T18:58:25.123Z",
@@ -10647,183 +10733,6 @@
       "mediaId": 2702,
       "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/wedding-vow-examples-hero-1.jpg",
       "finishedAt": "2026-05-20T10:57:25.572Z"
-    },
-    {
-      "status": "success",
-      "startedAt": "2026-05-19T11:25:27.872Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-05-19T11:25:27.876Z"
-        },
-        {
-          "msg": "Topic: \"how to write wedding vows\" (used 1x before)",
-          "type": "info",
-          "time": "2026-05-19T11:25:27.877Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-05-19T11:25:27.878Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-05-19T11:25:27.878Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-05-19T11:25:28.411Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-05-19T11:25:28.411Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-05-19T11:25:28.411Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-05-19T11:25:28.412Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-05-19T11:25:29.016Z"
-        },
-        {
-          "msg": "Found 43 published posts",
-          "type": "info",
-          "time": "2026-05-19T11:25:29.059Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-05-19T11:25:29.060Z"
-        },
-        {
-          "msg": "  Posts (3): \"Write Wedding Vows\", \"Write Wedding Vows 2\", \"When To Write Wedding Vows\"",
-          "type": "info",
-          "time": "2026-05-19T11:25:29.060Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
-          "type": "info",
-          "time": "2026-05-19T11:25:29.060Z"
-        },
-        {
-          "msg": "Writing article for \"how to write wedding vows\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-05-19T11:25:29.060Z"
-        },
-        {
-          "msg": "Article ready: \"How to Write Wedding Vows That Come from the Heart: A Complete Guide for Couples\"",
-          "type": "info",
-          "time": "2026-05-19T11:26:19.638Z"
-        },
-        {
-          "msg": "Excerpt length: 146 chars",
-          "type": "info",
-          "time": "2026-05-19T11:26:19.638Z"
-        },
-        {
-          "msg": "Unsplash query: \"wedding ceremony vows\"",
-          "type": "info",
-          "time": "2026-05-19T11:26:19.638Z"
-        },
-        {
-          "msg": "Post links: 3 | Term links: 3",
-          "type": "info",
-          "time": "2026-05-19T11:26:19.638Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"wedding ceremony vows\"...",
-          "type": "info",
-          "time": "2026-05-19T11:26:19.638Z"
-        },
-        {
-          "msg": "Image: \"grayscale photo of man insert ring into woman during wedding ceremony\" by Cinematic Imagery",
-          "type": "info",
-          "time": "2026-05-19T11:26:20.082Z"
-        },
-        {
-          "msg": "Downloading hero image...",
-          "type": "info",
-          "time": "2026-05-19T11:26:20.083Z"
-        },
-        {
-          "msg": "Uploading image to WordPress media library...",
-          "type": "info",
-          "time": "2026-05-19T11:26:20.102Z"
-        },
-        {
-          "msg": "Image uploaded (ID: 2699)",
-          "type": "info",
-          "time": "2026-05-19T11:26:21.125Z"
-        },
-        {
-          "msg": "Meta description (146 chars): \"Learn how to write wedding vows that truly capture your love story. Our complete guide covers structure, tips, and inspiration for heartfelt vows.\"",
-          "type": "info",
-          "time": "2026-05-19T11:26:21.636Z"
-        },
-        {
-          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
-          "type": "info",
-          "time": "2026-05-19T11:26:21.636Z"
-        },
-        {
-          "msg": "Published: https://helpwithvows.com/how-to-write-wedding-vows-that-come-from-the-heart-a-complete-guide-for-couples/ (post ID: 2700, category: 8)",
-          "type": "info",
-          "time": "2026-05-19T11:26:24.396Z"
-        },
-        {
-          "msg": "Writing Yoast SEO fields...",
-          "type": "info",
-          "time": "2026-05-19T11:26:24.396Z"
-        },
-        {
-          "msg": "  Focus keyphrase : \"how to write wedding vows\"",
-          "type": "info",
-          "time": "2026-05-19T11:26:24.396Z"
-        },
-        {
-          "msg": "  Meta description: \"Learn how to write wedding vows that truly capture your love story. Our complete guide covers structure, tips, and inspiration for heartfelt vows.\"",
-          "type": "info",
-          "time": "2026-05-19T11:26:24.396Z"
-        },
-        {
-          "msg": "Yoast fields confirmed — keyphrase: \"how to write wedding vows\", desc: 146 chars",
-          "type": "info",
-          "time": "2026-05-19T11:26:25.578Z"
-        },
-        {
-          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
-          "type": "warn",
-          "time": "2026-05-19T11:26:25.578Z"
-        }
-      ],
-      "topic": "how to write wedding vows",
-      "tierId": 4,
-      "keyword": "how to write wedding vows",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "title": "How to Write Wedding Vows That Come from the Heart: A Complete Guide for Couples",
-      "imageUrl": "https://images.unsplash.com/photo-1523369579000-4ec0fe04db44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjB2b3dzfGVufDF8MHx8fDE3NzkxODk5ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "Cinematic Imagery",
-      "postId": 2700,
-      "postUrl": "https://helpwithvows.com/how-to-write-wedding-vows-that-come-from-the-heart-a-complete-guide-for-couples/",
-      "mediaId": 2699,
-      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/how-to-write-wedding-vows-hero-1.jpg",
-      "finishedAt": "2026-05-19T11:26:25.578Z"
     }
   ]
 }
