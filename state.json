@@ -93,10 +93,10 @@
     },
     {
       "topic": "emotional wedding vows",
-      "uses": 7,
+      "uses": 8,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-08-16T08:33:24.247Z"
+      "lastRun": "2026-08-31T15:59:38.452Z"
     },
     {
       "topic": "writing your own wedding vows tips",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-08-31T15:59:38.452Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-08-31T15:59:38.455Z"
+        },
+        {
+          "msg": "Topic: \"emotional wedding vows\" (used 7x before)",
+          "type": "info",
+          "time": "2026-08-31T15:59:38.459Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-08-31T15:59:38.459Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-08-31T15:59:38.459Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-08-31T15:59:38.972Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-08-31T15:59:38.972Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-08-31T15:59:38.972Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-08-31T15:59:38.974Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-08-31T15:59:39.564Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-08-31T15:59:39.783Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-08-31T15:59:39.785Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Write Emotional Wedding Vows That Touch Every Heart\", \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\", \"Personal Wedding Vows How To Write Vows That Truly Reflect Your Heart\"",
+          "type": "info",
+          "time": "2026-08-31T15:59:39.785Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-08-31T15:59:39.785Z"
+        },
+        {
+          "msg": "Writing article for \"emotional wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-08-31T15:59:39.785Z"
+        }
+      ],
+      "topic": "emotional wedding vows",
+      "tierId": 4,
+      "keyword": "emotional wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Ceb6zCaxtYZnU5ShL8bbY\"}",
+      "finishedAt": "2026-08-31T15:59:39.949Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-08-30T13:41:06.442Z",
@@ -10374,183 +10460,6 @@
       "imageCredit": "Jakob Owens",
       "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
       "finishedAt": "2026-05-23T09:59:06.366Z"
-    },
-    {
-      "status": "success",
-      "startedAt": "2026-05-22T10:54:58.525Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-05-22T10:54:58.528Z"
-        },
-        {
-          "msg": "Topic: \"short wedding vows\" (used 1x before)",
-          "type": "info",
-          "time": "2026-05-22T10:54:58.530Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-05-22T10:54:58.531Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-05-22T10:54:58.531Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-05-22T10:54:59.117Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-05-22T10:54:59.117Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-05-22T10:54:59.117Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-05-22T10:54:59.119Z"
-        },
-        {
-          "msg": "Found 46 published posts",
-          "type": "info",
-          "time": "2026-05-22T10:54:59.879Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-05-22T10:55:00.114Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-05-22T10:55:00.115Z"
-        },
-        {
-          "msg": "  Posts (3): \"Short Wedding Vows How To Say Everything In Just A Few Perfect Words\", \"Write Wedding Vows\", \"Why Writing Your Own Wedding Vows Is Harder Than People Expect\"",
-          "type": "info",
-          "time": "2026-05-22T10:55:00.115Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
-          "type": "info",
-          "time": "2026-05-22T10:55:00.116Z"
-        },
-        {
-          "msg": "Writing article for \"short wedding vows\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-05-22T10:55:00.116Z"
-        },
-        {
-          "msg": "Article ready: \"Short Wedding Vows That Say Everything: Beautiful Examples and Writing Tips\"",
-          "type": "info",
-          "time": "2026-05-22T10:55:51.175Z"
-        },
-        {
-          "msg": "Excerpt length: 165 chars",
-          "type": "info",
-          "time": "2026-05-22T10:55:51.175Z"
-        },
-        {
-          "msg": "Unsplash query: \"wedding ceremony romantic\"",
-          "type": "info",
-          "time": "2026-05-22T10:55:51.175Z"
-        },
-        {
-          "msg": "Post links: 3 | Term links: 3",
-          "type": "info",
-          "time": "2026-05-22T10:55:51.175Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"wedding ceremony romantic\"...",
-          "type": "info",
-          "time": "2026-05-22T10:55:51.175Z"
-        },
-        {
-          "msg": "Image: \"selective focus photography white and pink isle flower arrangement\" by Shardayyy Photography",
-          "type": "info",
-          "time": "2026-05-22T10:55:51.740Z"
-        },
-        {
-          "msg": "Downloading hero image...",
-          "type": "info",
-          "time": "2026-05-22T10:55:51.740Z"
-        },
-        {
-          "msg": "Uploading image to WordPress media library...",
-          "type": "info",
-          "time": "2026-05-22T10:55:51.905Z"
-        },
-        {
-          "msg": "Image uploaded (ID: 2708)",
-          "type": "info",
-          "time": "2026-05-22T10:55:53.592Z"
-        },
-        {
-          "msg": "Meta description (155 chars): \"Discover how to write meaningful short wedding vows that say everything in just a few perfect words. Get examples, tips, and inspiration for brief but p...\"",
-          "type": "info",
-          "time": "2026-05-22T10:55:54.017Z"
-        },
-        {
-          "msg": "Publishing post to WordPress (category ID: 8, status: publish)...",
-          "type": "info",
-          "time": "2026-05-22T10:55:54.017Z"
-        },
-        {
-          "msg": "Published: https://helpwithvows.com/short-wedding-vows-that-say-everything-beautiful-examples-and-writing-tips/ (post ID: 2709, category: 8)",
-          "type": "info",
-          "time": "2026-05-22T10:55:56.506Z"
-        },
-        {
-          "msg": "Writing Yoast SEO fields...",
-          "type": "info",
-          "time": "2026-05-22T10:55:56.506Z"
-        },
-        {
-          "msg": "  Focus keyphrase : \"short wedding vows\"",
-          "type": "info",
-          "time": "2026-05-22T10:55:56.506Z"
-        },
-        {
-          "msg": "  Meta description: \"Discover how to write meaningful short wedding vows that say everything in just a few perfect words. Get examples, tips, and inspiration for brief but p...\"",
-          "type": "info",
-          "time": "2026-05-22T10:55:56.506Z"
-        },
-        {
-          "msg": "Yoast fields confirmed — keyphrase: \"short wedding vows\", desc: 155 chars",
-          "type": "info",
-          "time": "2026-05-22T10:55:57.703Z"
-        },
-        {
-          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
-          "type": "warn",
-          "time": "2026-05-22T10:55:57.703Z"
-        }
-      ],
-      "topic": "short wedding vows",
-      "tierId": 4,
-      "keyword": "short wedding vows",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "title": "Short Wedding Vows That Say Everything: Beautiful Examples and Writing Tips",
-      "imageUrl": "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2VyZW1vbnklMjByb21hbnRpY3xlbnwxfDB8fHwxNzc5NDQ3MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "Shardayyy Photography",
-      "postId": 2709,
-      "postUrl": "https://helpwithvows.com/short-wedding-vows-that-say-everything-beautiful-examples-and-writing-tips/",
-      "mediaId": 2708,
-      "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/05/short-wedding-vows-hero-1.jpg",
-      "finishedAt": "2026-05-22T10:55:57.703Z"
     }
   ]
 }
