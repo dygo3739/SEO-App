@@ -58,10 +58,10 @@
     },
     {
       "topic": "wedding vows for her",
-      "uses": 8,
+      "uses": 9,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-08-26T08:49:18.613Z"
+      "lastRun": "2026-09-10T12:47:40.079Z"
     },
     {
       "topic": "how long should wedding vows be",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-09-10T12:47:40.079Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-09-10T12:47:40.083Z"
+        },
+        {
+          "msg": "Topic: \"wedding vows for her\" (used 8x before)",
+          "type": "info",
+          "time": "2026-09-10T12:47:40.086Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-09-10T12:47:40.087Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-09-10T12:47:40.087Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-09-10T12:47:40.650Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-09-10T12:47:40.650Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-09-10T12:47:40.650Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-09-10T12:47:40.652Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-09-10T12:47:41.301Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-09-10T12:47:41.592Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-09-10T12:47:41.593Z"
+        },
+        {
+          "msg": "  Posts (3): \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\", \"Personal Wedding Vows How To Write Vows That Truly Reflect Your Heart\", \"Unique Wedding Vows How To Write Vows That Are Truly Yours\"",
+          "type": "info",
+          "time": "2026-09-10T12:47:41.593Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-09-10T12:47:41.593Z"
+        },
+        {
+          "msg": "Writing article for \"wedding vows for her\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-09-10T12:47:41.594Z"
+        }
+      ],
+      "topic": "wedding vows for her",
+      "tierId": 4,
+      "keyword": "wedding vows for her",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CeunSJZiXBXazDWKKXFPe\"}",
+      "finishedAt": "2026-09-10T12:47:41.794Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-09-09T12:50:11.437Z",
@@ -9618,135 +9704,6 @@
       "mediaId": 2733,
       "mediaUrl": "https://helpwithvows.com/wp-content/uploads/2026/06/writing-your-own-wedding-vows-tips-hero.jpg",
       "finishedAt": "2026-06-03T12:46:17.990Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-06-02T12:09:14.912Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-06-02T12:09:14.915Z"
-        },
-        {
-          "msg": "Topic: \"emotional wedding vows\" (used 1x before)",
-          "type": "info",
-          "time": "2026-06-02T12:09:14.918Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-06-02T12:09:14.918Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-06-02T12:09:14.918Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-06-02T12:09:15.382Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.382Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.382Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.384Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.804Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.805Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.806Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.806Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.806Z"
-        },
-        {
-          "msg": "Writing article for \"emotional wedding vows\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-06-02T12:09:15.806Z"
-        },
-        {
-          "msg": "Article ready: \"How to Write Emotional Wedding Vows That Touch Every Heart\"",
-          "type": "info",
-          "time": "2026-06-02T12:09:59.058Z"
-        },
-        {
-          "msg": "Excerpt length: 178 chars",
-          "type": "info",
-          "time": "2026-06-02T12:09:59.059Z"
-        },
-        {
-          "msg": "Unsplash query: \"emotional wedding ceremony vows\"",
-          "type": "info",
-          "time": "2026-06-02T12:09:59.059Z"
-        },
-        {
-          "msg": "Post links: 0 | Term links: 0",
-          "type": "info",
-          "time": "2026-06-02T12:09:59.059Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"emotional wedding ceremony vows\"...",
-          "type": "info",
-          "time": "2026-06-02T12:09:59.059Z"
-        },
-        {
-          "msg": "Image: \"grayscale photography of bride and groom\" by Cayton Heath",
-          "type": "info",
-          "time": "2026-06-02T12:09:59.460Z"
-        },
-        {
-          "msg": "Downloading hero image...",
-          "type": "info",
-          "time": "2026-06-02T12:09:59.461Z"
-        },
-        {
-          "msg": "Uploading image to WordPress media library...",
-          "type": "info",
-          "time": "2026-06-02T12:09:59.484Z"
-        }
-      ],
-      "topic": "emotional wedding vows",
-      "tierId": 4,
-      "keyword": "emotional wedding vows",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "title": "How to Write Emotional Wedding Vows That Touch Every Heart",
-      "imageUrl": "https://images.unsplash.com/photo-1453857271477-4f9a4081966e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwzfHxlbW90aW9uYWwlMjB3ZWRkaW5nJTIwY2VyZW1vbnklMjB2b3dzfGVufDF8MHx8fDE3ODA0MDIxOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "Cayton Heath",
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "finishedAt": "2026-06-02T12:10:00.458Z"
     }
   ]
 }
