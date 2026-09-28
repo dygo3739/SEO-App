@@ -79,10 +79,10 @@
     },
     {
       "topic": "unique wedding vows",
-      "uses": 9,
+      "uses": 10,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-09-13T13:12:00.053Z"
+      "lastRun": "2026-09-28T16:36:25.265Z"
     },
     {
       "topic": "simple wedding vows",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-09-28T16:36:25.265Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-09-28T16:36:25.269Z"
+        },
+        {
+          "msg": "Topic: \"unique wedding vows\" (used 9x before)",
+          "type": "info",
+          "time": "2026-09-28T16:36:25.272Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-09-28T16:36:25.272Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-09-28T16:36:25.273Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-09-28T16:36:25.765Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-09-28T16:36:25.766Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-09-28T16:36:25.766Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-09-28T16:36:25.768Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-09-28T16:36:26.301Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-09-28T16:36:26.303Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-09-28T16:36:26.304Z"
+        },
+        {
+          "msg": "  Posts (3): \"Unique Wedding Vows How To Write Vows That Are Truly Yours\", \"How To Write Unique Wedding Vows That Capture Your Love Story\", \"Unique Wedding Vows 25 Ideas To Make Your Ceremony Unforgettable\"",
+          "type": "info",
+          "time": "2026-09-28T16:36:26.304Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-09-28T16:36:26.304Z"
+        },
+        {
+          "msg": "Writing article for \"unique wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-09-28T16:36:26.305Z"
+        }
+      ],
+      "topic": "unique wedding vows",
+      "tierId": 4,
+      "keyword": "unique wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CfWASVTzhqQJbYzH2H4HK\"}",
+      "finishedAt": "2026-09-28T16:36:26.719Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-09-27T13:42:14.615Z",
@@ -8680,92 +8766,6 @@
       "internalTermLinks": 0,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcGKC3i8oEqMXYsy2Ebee\"}",
       "finishedAt": "2026-06-21T11:19:29.922Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-06-20T10:35:42.469Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-06-20T10:35:42.472Z"
-        },
-        {
-          "msg": "Topic: \"wedding vow examples\" (used 3x before)",
-          "type": "info",
-          "time": "2026-06-20T10:35:42.475Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-06-20T10:35:42.475Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-06-20T10:35:42.475Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-06-20T10:35:42.958Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-06-20T10:35:42.958Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-06-20T10:35:42.958Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-06-20T10:35:42.960Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-06-20T10:35:43.787Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-06-20T10:35:43.789Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-06-20T10:35:43.789Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-06-20T10:35:43.789Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-06-20T10:35:43.789Z"
-        },
-        {
-          "msg": "Writing article for \"wedding vow examples\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-06-20T10:35:43.790Z"
-        }
-      ],
-      "topic": "wedding vow examples",
-      "tierId": 4,
-      "keyword": "wedding vow examples",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcEN3ZMgbRZvpSU4yMxDc\"}",
-      "finishedAt": "2026-06-20T10:35:43.926Z"
     }
   ]
 }
