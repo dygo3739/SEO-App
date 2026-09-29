@@ -86,10 +86,10 @@
     },
     {
       "topic": "simple wedding vows",
-      "uses": 9,
+      "uses": 10,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-09-14T14:52:17.597Z"
+      "lastRun": "2026-09-29T14:43:30.493Z"
     },
     {
       "topic": "emotional wedding vows",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-09-29T14:43:30.493Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-09-29T14:43:30.497Z"
+        },
+        {
+          "msg": "Topic: \"simple wedding vows\" (used 9x before)",
+          "type": "info",
+          "time": "2026-09-29T14:43:30.500Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-09-29T14:43:30.500Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-09-29T14:43:30.500Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-09-29T14:43:31.181Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.181Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.181Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.183Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.381Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.384Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.384Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.384Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.384Z"
+        },
+        {
+          "msg": "Writing article for \"simple wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-09-29T14:43:31.384Z"
+        }
+      ],
+      "topic": "simple wedding vows",
+      "tierId": 4,
+      "keyword": "simple wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CfXue18kkmxgFA9RKuFfC\"}",
+      "finishedAt": "2026-09-29T14:43:31.744Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-09-28T16:36:25.265Z",
@@ -8680,92 +8766,6 @@
       "internalTermLinks": 3,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcJPbvSUAKkewNzwLcotP\"}",
       "finishedAt": "2026-06-22T13:38:32.442Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-06-21T11:19:28.873Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-06-21T11:19:28.876Z"
-        },
-        {
-          "msg": "Topic: \"personal wedding vows\" (used 3x before)",
-          "type": "info",
-          "time": "2026-06-21T11:19:28.879Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-06-21T11:19:28.879Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-06-21T11:19:28.879Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-06-21T11:19:29.401Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.402Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.402Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.404Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.771Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.774Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.774Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.774Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.774Z"
-        },
-        {
-          "msg": "Writing article for \"personal wedding vows\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-06-21T11:19:29.775Z"
-        }
-      ],
-      "topic": "personal wedding vows",
-      "tierId": 4,
-      "keyword": "personal wedding vows",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcGKC3i8oEqMXYsy2Ebee\"}",
-      "finishedAt": "2026-06-21T11:19:29.922Z"
     }
   ]
 }
