@@ -37,10 +37,10 @@
     },
     {
       "topic": "traditional wedding vows",
-      "uses": 10,
+      "uses": 11,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-09-22T13:13:58.200Z"
+      "lastRun": "2026-10-07T15:21:33.651Z"
     },
     {
       "topic": "non religious wedding vows",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-10-07T15:21:33.651Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-10-07T15:21:33.655Z"
+        },
+        {
+          "msg": "Topic: \"traditional wedding vows\" (used 10x before)",
+          "type": "info",
+          "time": "2026-10-07T15:21:33.658Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-10-07T15:21:33.658Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-10-07T15:21:33.658Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-10-07T15:21:34.353Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-10-07T15:21:34.353Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-10-07T15:21:34.353Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-10-07T15:21:34.355Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-10-07T15:21:34.834Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-10-07T15:21:35.065Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-10-07T15:21:35.066Z"
+        },
+        {
+          "msg": "  Posts (3): \"Traditional Vs Personal Wedding Vows\", \"Traditional Wedding Vows Meaning\", \"Traditional Wedding Vows Timeless Words For Your Sacred Moment\"",
+          "type": "info",
+          "time": "2026-10-07T15:21:35.066Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-10-07T15:21:35.066Z"
+        },
+        {
+          "msg": "Writing article for \"traditional wedding vows\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-10-07T15:21:35.067Z"
+        }
+      ],
+      "topic": "traditional wedding vows",
+      "tierId": 4,
+      "keyword": "traditional wedding vows",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cfo71fWm6zvyoAddx5Vnr\"}",
+      "finishedAt": "2026-10-07T15:21:35.409Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-10-06T14:54:38.236Z",
@@ -8680,92 +8766,6 @@
       "internalTermLinks": 3,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcZM1shPzvDRHBHKYqqJJ\"}",
       "finishedAt": "2026-06-30T11:13:31.574Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-06-29T12:38:20.490Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-06-29T12:38:20.493Z"
-        },
-        {
-          "msg": "Topic: \"wedding vow renewal ideas\" (used 3x before)",
-          "type": "info",
-          "time": "2026-06-29T12:38:20.497Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-06-29T12:38:20.497Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-06-29T12:38:20.497Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-06-29T12:38:21.133Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-06-29T12:38:21.133Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-06-29T12:38:21.133Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-06-29T12:38:21.135Z"
-        },
-        {
-          "msg": "Found 62 published posts",
-          "type": "info",
-          "time": "2026-06-29T12:38:23.651Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-06-29T12:38:23.886Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-06-29T12:38:23.887Z"
-        },
-        {
-          "msg": "  Posts (3): \"25 Romantic Wedding Vow Renewal Ideas To Reignite Your Love Story\", \"Wedding Vow Renewal Ideas 15 Beautiful Ways To Celebrate Your Everlasting Love\", \"Wedding Vow Renewal Ideas 15 Beautiful Ways To Celebrate Your Enduring Love\"",
-          "type": "info",
-          "time": "2026-06-29T12:38:23.887Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Destination Wedding Ceremony\", \"Glossary/Vow Renewal\", \"Glossary/Micro Wedding\"",
-          "type": "info",
-          "time": "2026-06-29T12:38:23.887Z"
-        },
-        {
-          "msg": "Writing article for \"wedding vow renewal ideas\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-06-29T12:38:23.888Z"
-        }
-      ],
-      "topic": "wedding vow renewal ideas",
-      "tierId": 4,
-      "keyword": "wedding vow renewal ideas",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcXZgMBaPPFRHQiXa3Kcs\"}",
-      "finishedAt": "2026-06-29T12:38:24.167Z"
     }
   ]
 }
