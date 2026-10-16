@@ -100,13 +100,99 @@
     },
     {
       "topic": "writing your own wedding vows tips",
-      "uses": 10,
+      "uses": 11,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-10-01T15:15:31.722Z"
+      "lastRun": "2026-10-16T13:05:42.770Z"
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-10-16T13:05:42.770Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-10-16T13:05:42.773Z"
+        },
+        {
+          "msg": "Topic: \"writing your own wedding vows tips\" (used 10x before)",
+          "type": "info",
+          "time": "2026-10-16T13:05:42.776Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-10-16T13:05:42.777Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-10-16T13:05:42.777Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-10-16T13:05:43.357Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.357Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.357Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.359Z"
+        },
+        {
+          "msg": "Found 62 published posts",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.475Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.478Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.478Z"
+        },
+        {
+          "msg": "  Posts (3): \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\", \"7 Essential Writing Your Own Wedding Vows Tips That Actually Work\", \"Why Writing Your Own Wedding Vows Is Harder Than People Expect\"",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.479Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.479Z"
+        },
+        {
+          "msg": "Writing article for \"writing your own wedding vows tips\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-10-16T13:05:43.479Z"
+        }
+      ],
+      "topic": "writing your own wedding vows tips",
+      "tierId": 4,
+      "keyword": "writing your own wedding vows tips",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cg5xw1wpix2awtnLvfitc\"}",
+      "finishedAt": "2026-10-16T13:05:43.678Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-10-15T13:11:51.213Z",
@@ -8685,92 +8771,6 @@
       "internalTermLinks": 3,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcrNt9G6ecdWZwZ9A449E\"}",
       "finishedAt": "2026-07-09T11:08:06.381Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-07-08T10:22:49.933Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-07-08T10:22:49.936Z"
-        },
-        {
-          "msg": "Topic: \"funny wedding vows\" (used 4x before)",
-          "type": "info",
-          "time": "2026-07-08T10:22:49.940Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-07-08T10:22:49.940Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-07-08T10:22:49.940Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-07-08T10:22:50.571Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.571Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.571Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.573Z"
-        },
-        {
-          "msg": "Found 62 published posts",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.648Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.649Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.650Z"
-        },
-        {
-          "msg": "  Posts (3): \"How To Write Funny Wedding Vows That Make Everyone Laugh And Cry\", \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\", \"Personal Wedding Vows How To Write Vows That Truly Reflect Your Heart\"",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.650Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.650Z"
-        },
-        {
-          "msg": "Writing article for \"funny wedding vows\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-07-08T10:22:50.650Z"
-        }
-      ],
-      "topic": "funny wedding vows",
-      "tierId": 4,
-      "keyword": "funny wedding vows",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcpRd3oMwZvhezfkNqbbW\"}",
-      "finishedAt": "2026-07-08T10:22:50.778Z"
     }
   ]
 }
