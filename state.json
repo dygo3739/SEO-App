@@ -65,10 +65,10 @@
     },
     {
       "topic": "how long should wedding vows be",
-      "uses": 13,
+      "uses": 14,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-11-10T16:15:40.364Z"
+      "lastRun": "2026-11-25T18:31:22.659Z"
     },
     {
       "topic": "wedding vow renewal ideas",
@@ -107,6 +107,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-11-25T18:31:22.659Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-11-25T18:31:22.662Z"
+        },
+        {
+          "msg": "Topic: \"how long should wedding vows be\" (used 13x before)",
+          "type": "info",
+          "time": "2026-11-25T18:31:22.665Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-11-25T18:31:22.665Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
+          "type": "info",
+          "time": "2026-11-25T18:31:22.665Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-11-25T18:31:23.181Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.181Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.181Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.183Z"
+        },
+        {
+          "msg": "Found 63 published posts",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.427Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.450Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.451Z"
+        },
+        {
+          "msg": "  Posts (3): \"How Long Should Wedding Vows Be The Perfect Length Guide For Your Big Day\", \"How Long Should Wedding Vows Be The Perfect Length Guide For Your Big Day 2\", \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\"",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.451Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.451Z"
+        },
+        {
+          "msg": "Writing article for \"how long should wedding vows be\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-11-25T18:31:23.451Z"
+        }
+      ],
+      "topic": "how long should wedding vows be",
+      "tierId": 4,
+      "keyword": "how long should wedding vows be",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQ881rkqfzZsTfECTpho\"}",
+      "finishedAt": "2026-11-25T18:31:23.555Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-11-24T19:25:36.047Z",
@@ -8655,92 +8741,6 @@
       "internalTermLinks": 0,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Ce9v2YtXXC37TZCrx18TJ\"}",
       "finishedAt": "2026-08-18T08:41:05.579Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-08-17T08:48:18.922Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-08-17T08:48:18.926Z"
-        },
-        {
-          "msg": "Topic: \"writing your own wedding vows tips\" (used 6x before)",
-          "type": "info",
-          "time": "2026-08-17T08:48:18.929Z"
-        },
-        {
-          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
-          "type": "info",
-          "time": "2026-08-17T08:48:18.929Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: personalized wedding vow writing, vow coaching, and ceremony wording)...",
-          "type": "info",
-          "time": "2026-08-17T08:48:18.930Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 402) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-08-17T08:48:19.376Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-08-17T08:48:19.376Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-08-17T08:48:19.376Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-08-17T08:48:19.378Z"
-        },
-        {
-          "msg": "Found 62 published posts",
-          "type": "info",
-          "time": "2026-08-17T08:48:20.032Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-08-17T08:48:20.189Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-08-17T08:48:20.190Z"
-        },
-        {
-          "msg": "  Posts (3): \"Writing Your Own Wedding Vows Essential Tips For Heartfelt Personal Vows\", \"7 Essential Writing Your Own Wedding Vows Tips That Actually Work\", \"Why Writing Your Own Wedding Vows Is Harder Than People Expect\"",
-          "type": "info",
-          "time": "2026-08-17T08:48:20.190Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Callback Literary Callback In Vows\", \"Glossary/Pet Name In Vows\", \"Glossary/Call And Response Vows\"",
-          "type": "info",
-          "time": "2026-08-17T08:48:20.190Z"
-        },
-        {
-          "msg": "Writing article for \"writing your own wedding vows tips\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-08-17T08:48:20.191Z"
-        }
-      ],
-      "topic": "writing your own wedding vows tips",
-      "tierId": 4,
-      "keyword": "writing your own wedding vows tips",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Ce82mgXnx1u76z4fWWP43\"}",
-      "finishedAt": "2026-08-17T08:48:20.336Z"
     }
   ]
 }
